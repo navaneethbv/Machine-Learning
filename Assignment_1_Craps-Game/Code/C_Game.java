@@ -9,4 +9,4 @@ public class C_Game
 		GameOfCrap goc = new GameOfCrap();
 		goc.startGame();
 	}
-}
+} 
