@@ -1,4 +1,4 @@
------Let's Play the GAME of CRAPS-----
+-----Let's Play the GAME of CRAPS----- 
 Starting Balance is  $1000
 Rolling dice ...........
 Wager =================>100
