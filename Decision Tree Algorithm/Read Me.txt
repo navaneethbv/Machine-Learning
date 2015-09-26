@@ -20,5 +20,5 @@ $ java Solution 20 200 /home/data_sets1/training_set.csv /home/data_sets1/valida
 
 Example Test Cases -
 1. java Solution 20 200 /home/data_sets1/training_set.csv /home/data_sets1/validation_set.csv /home/data_sets1/test_set.csv yes
-2. java Solution 20 200 /home/data_sets1/training_set.csv /home/data_sets1/validation_set.csv /home/data_sets1/test_set.csv yes
-3. java Solution 20 200 /home/data_sets1/training_set.csv /home/data_sets1/validation_set.csv /home/data_sets1/test_set.csv yes
+2. java Solution 20 40 /home/data_sets1/training_set.csv /home/data_sets1/validation_set.csv /home/data_sets1/test_set.csv yes
+3. java Solution 10 20 /home/data_sets1/training_set.csv /home/data_sets1/validation_set.csv /home/data_sets1/test_set.csv yes
