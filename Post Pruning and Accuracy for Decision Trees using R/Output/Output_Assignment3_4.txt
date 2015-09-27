@@ -1,0 +1,221 @@
+> library(rpart)
+> data("solder")
+> str(solder)
+'data.frame':	720 obs. of  6 variables:
+ $ Opening: Factor w/ 3 levels "L","M","S": 1 1 1 1 1 1 1 1 1 1 ...
+ $ Solder : Factor w/ 2 levels "Thick","Thin": 1 1 1 1 1 1 1 1 1 1 ...
+ $ Mask   : Factor w/ 4 levels "A1.5","A3","B3",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ PadType: Factor w/ 10 levels "D4","D6","D7",..: 9 9 9 1 1 1 4 4 4 2 ...
+ $ Panel  : int  1 2 3 1 2 3 1 2 3 1 ...
+ $ skips  : int  0 0 0 0 0 0 0 0 0 0 ...
+> floor_val<-floor(0.9*nrow(solder))
+> train<-sample(nrow(solder),size=floor_val)
+> trainingData<-solder[train,]
+> testData<-solder[-train,]
+> solder_fit<-rpart(Solder~.,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
+> par(mar = rep(0.1, 4))
+> plot(solder_fit)
+> text(solder_fit)
+> summary(solder_fit)
+Call:
+rpart(formula = Solder ~ ., data = trainingData, method = "class", 
+    parms = list(split = "information"), minsplit = 2, minbucket = 1)
+  n= 648 
+
+          CP nsplit rel error    xerror       xstd
+1 0.34365325      0 1.0000000 1.1300310 0.03908856
+2 0.02579979      1 0.6563467 0.6563467 0.03697610
+3 0.02167183      4 0.5789474 0.6470588 0.03683964
+4 0.01702786      7 0.5139319 0.6006192 0.03609431
+5 0.01000000      9 0.4798762 0.5448916 0.03505398
+
+Variable importance
+  skips Opening    Mask PadType 
+     42      27      21      10 
+
+Node number 1: 648 observations,    complexity param=0.3436533
+  predicted class=Thick  expected loss=0.4984568  P(node) =1
+    class counts:   325   323
+   probabilities: 0.502 0.498 
+  left son=2 (389 obs) right son=3 (259 obs)
+  Primary splits:
+      skips   < 2.5  to the left,    improve=41.2217900, (0 missing)
+      PadType splits as  RRRRRLLRLR, improve= 0.3377556, (0 missing)
+      Opening splits as  LRR,        improve= 0.1879571, (0 missing)
+      Panel   < 1.5  to the left,    improve= 0.1406940, (0 missing)
+      Mask    splits as  LRRL,       improve= 0.1114714, (0 missing)
+  Surrogate splits:
+      Opening splits as  LLR,        agree=0.755, adj=0.386, (0 split)
+      Mask    splits as  LLLR,       agree=0.707, adj=0.266, (0 split)
+      PadType splits as  LLLRLLLLLL, agree=0.622, adj=0.054, (0 split)
+
+Node number 2: 389 observations,    complexity param=0.02579979
+  predicted class=Thick  expected loss=0.3547558  P(node) =0.6003086
+    class counts:   251   138
+   probabilities: 0.645 0.355 
+  left son=4 (56 obs) right son=5 (333 obs)
+  Primary splits:
+      Opening splits as  RRL,        improve=14.139570, (0 missing)
+      Mask    splits as  RRRL,       improve= 9.909314, (0 missing)
+      skips   < 0.5  to the left,    improve= 4.553870, (0 missing)
+      PadType splits as  LLLLLLLLLR, improve= 1.450994, (0 missing)
+      Panel   < 2.5  to the right,   improve= 0.232489, (0 missing)
+
+Node number 3: 259 observations,    complexity param=0.02167183
+  predicted class=Thin   expected loss=0.2857143  P(node) =0.3996914
+    class counts:    74   185
+   probabilities: 0.286 0.714 
+  left son=6 (184 obs) right son=7 (75 obs)
+  Primary splits:
+      Mask    splits as  RRLL,       improve=6.6205850, (0 missing)
+      skips   < 31   to the left,    improve=4.8688470, (0 missing)
+      PadType splits as  RRRLRLLRLR, improve=2.9929210, (0 missing)
+      Opening splits as  RRL,        improve=2.2318430, (0 missing)
+      Panel   < 2.5  to the left,    improve=0.6750781, (0 missing)
+
+Node number 4: 56 observations
+  predicted class=Thick  expected loss=0.07142857  P(node) =0.08641975
+    class counts:    52     4
+   probabilities: 0.929 0.071 
+
+Node number 5: 333 observations,    complexity param=0.02579979
+  predicted class=Thick  expected loss=0.4024024  P(node) =0.5138889
+    class counts:   199   134
+   probabilities: 0.598 0.402 
+  left son=10 (46 obs) right son=11 (287 obs)
+  Primary splits:
+      Mask    splits as  RRRL,       improve=13.181730000, (0 missing)
+      skips   < 0.5  to the left,    improve= 8.879955000, (0 missing)
+      PadType splits as  LRLLRRLRRR, improve= 1.064500000, (0 missing)
+      Panel   < 1.5  to the right,   improve= 0.232790100, (0 missing)
+      Opening splits as  LR-,        improve= 0.009479138, (0 missing)
+
+Node number 6: 184 observations,    complexity param=0.02167183
+  predicted class=Thin   expected loss=0.3478261  P(node) =0.2839506
+    class counts:    64   120
+   probabilities: 0.348 0.652 
+  left son=12 (147 obs) right son=13 (37 obs)
+  Primary splits:
+      skips   < 19.5 to the left,    improve=6.80770700, (0 missing)
+      Opening splits as  RRL,        improve=6.23503200, (0 missing)
+      PadType splits as  RLRLLLLLLR, improve=1.20415200, (0 missing)
+      Panel   < 1.5  to the left,    improve=0.38009690, (0 missing)
+      Mask    splits as  --RL,       improve=0.05125219, (0 missing)
+
+Node number 7: 75 observations
+  predicted class=Thin   expected loss=0.1333333  P(node) =0.1157407
+    class counts:    10    65
+   probabilities: 0.133 0.867 
+
+Node number 10: 46 observations
+  predicted class=Thick  expected loss=0.08695652  P(node) =0.07098765
+    class counts:    42     4
+   probabilities: 0.913 0.087 
+
+Node number 11: 287 observations,    complexity param=0.02579979
+  predicted class=Thick  expected loss=0.4529617  P(node) =0.4429012
+    class counts:   157   130
+   probabilities: 0.547 0.453 
+  left son=22 (170 obs) right son=23 (117 obs)
+  Primary splits:
+      skips   < 0.5  to the left,    improve=9.50157800, (0 missing)
+      PadType splits as  LRLLRRLRLR, improve=0.88666590, (0 missing)
+      Mask    splits as  RLL-,       improve=0.47900540, (0 missing)
+      Panel   < 2.5  to the right,   improve=0.10209160, (0 missing)
+      Opening splits as  RL-,        improve=0.04230722, (0 missing)
+  Surrogate splits:
+      PadType splits as  LLLRRLLLLL, agree=0.620, adj=0.068, (0 split)
+      Mask    splits as  LLR-,       agree=0.603, adj=0.026, (0 split)
+
+Node number 12: 147 observations,    complexity param=0.02167183
+  predicted class=Thin   expected loss=0.4081633  P(node) =0.2268519
+    class counts:    60    87
+   probabilities: 0.408 0.592 
+  left son=24 (61 obs) right son=25 (86 obs)
+  Primary splits:
+      Opening splits as  RRL,        improve=15.391580000, (0 missing)
+      PadType splits as  LLLLLLLLLR, improve= 1.049574000, (0 missing)
+      skips   < 4.5  to the right,   improve= 0.999423100, (0 missing)
+      Panel   < 2.5  to the left,    improve= 0.426253800, (0 missing)
+      Mask    splits as  --LR,       improve= 0.001218203, (0 missing)
+  Surrogate splits:
+      skips   < 9.5  to the right,   agree=0.735, adj=0.361, (0 split)
+      PadType splits as  RRRRRRRLRL, agree=0.653, adj=0.164, (0 split)
+      Mask    splits as  --LR,       agree=0.639, adj=0.131, (0 split)
+
+Node number 13: 37 observations
+  predicted class=Thin   expected loss=0.1081081  P(node) =0.05709877
+    class counts:     4    33
+   probabilities: 0.108 0.892 
+
+Node number 22: 170 observations
+  predicted class=Thick  expected loss=0.3470588  P(node) =0.2623457
+    class counts:   111    59
+   probabilities: 0.653 0.347 
+
+Node number 23: 117 observations
+  predicted class=Thin   expected loss=0.3931624  P(node) =0.1805556
+    class counts:    46    71
+   probabilities: 0.393 0.607 
+
+Node number 24: 61 observations,    complexity param=0.01702786
+  predicted class=Thick  expected loss=0.3278689  P(node) =0.0941358
+    class counts:    41    20
+   probabilities: 0.672 0.328 
+  left son=48 (28 obs) right son=49 (33 obs)
+  Primary splits:
+      skips   < 10.5 to the left,    improve=6.1995090, (0 missing)
+      PadType splits as  LLLLRLLRLR, improve=5.2237570, (0 missing)
+      Mask    splits as  --RL,       improve=1.8774960, (0 missing)
+      Panel   < 1.5  to the right,   improve=0.5083045, (0 missing)
+  Surrogate splits:
+      Mask    splits as  --LR,       agree=0.639, adj=0.214, (0 split)
+      PadType splits as  LRRRRRRLRL, agree=0.623, adj=0.179, (0 split)
+      Panel   < 1.5  to the right,   agree=0.557, adj=0.036, (0 split)
+
+Node number 25: 86 observations
+  predicted class=Thin   expected loss=0.2209302  P(node) =0.132716
+    class counts:    19    67
+   probabilities: 0.221 0.779 
+
+Node number 48: 28 observations
+  predicted class=Thick  expected loss=0.1071429  P(node) =0.04320988
+    class counts:    25     3
+   probabilities: 0.893 0.107 
+
+Node number 49: 33 observations,    complexity param=0.01702786
+  predicted class=Thin   expected loss=0.4848485  P(node) =0.05092593
+    class counts:    16    17
+   probabilities: 0.485 0.515 
+  left son=98 (22 obs) right son=99 (11 obs)
+  Primary splits:
+      PadType splits as  LLLLRLLRLR, improve=9.9677460, (0 missing)
+      Mask    splits as  --RL,       improve=5.0602180, (0 missing)
+      skips   < 16.5 to the right,   improve=0.9579070, (0 missing)
+      Panel   < 1.5  to the right,   improve=0.1545212, (0 missing)
+
+Node number 98: 22 observations
+  predicted class=Thick  expected loss=0.2727273  P(node) =0.03395062
+    class counts:    16     6
+   probabilities: 0.727 0.273 
+
+Node number 99: 11 observations
+  predicted class=Thin   expected loss=0  P(node) =0.01697531
+    class counts:     0    11
+   probabilities: 0.000 1.000 
+
+> CPVal<-solder_fit$cptable[which.min(solder_fit$cptable[,"xerror"]),"CP"]
+> CPVal
+[1] 0.01
+> pruned_fit<-prune(solder_fit,cp=as.numeric(CPVal))
+> out<-predict(pruned_fit,newdata=testData,type="vector")
+> tab <- table(out, testData$Solder)
+> tab
+   
+out Thick Thin
+  1    28    8
+  2     7   29
+> accuracy<-sum(diag(tab))/sum(tab)
+> accuracyPercentage<-accuracy*100
+> accuracyPercentage
+[1] 79.16667

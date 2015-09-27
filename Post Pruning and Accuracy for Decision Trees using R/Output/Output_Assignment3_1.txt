@@ -1,0 +1,278 @@
+> library(rpart)
+> data("kyphosis")
+> str(kyphosis)
+'data.frame':	81 obs. of  4 variables:
+ $ Kyphosis: Factor w/ 2 levels "absent","present": 1 1 2 1 1 1 1 1 1 2 ...
+ $ Age     : int  71 158 128 2 1 1 61 37 113 59 ...
+ $ Number  : int  3 3 4 5 4 2 2 3 2 6 ...
+ $ Start   : int  5 14 5 1 15 16 17 16 16 12 ...
+> floor_val<-floor(0.8*nrow(kyphosis))
+> train<-sample(nrow(kyphosis),size=floor_val)
+> trainingData<-kyphosis[train,]
+> testData<-kyphosis[-train,]
+> kyphosis_fit<-rpart(Kyphosis~Age+Number+Start,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
+> par(mar = rep(0.1, 4))
+> plot(kyphosis_fit)
+> text(kyphosis_fit)
+> summary(kyphosis_fit)
+Call:
+rpart(formula = Kyphosis ~ Age + Number + Start, data = trainingData, 
+    method = "class", parms = list(split = "information"), minsplit = 2, 
+    minbucket = 1)
+  n= 64 
+
+          CP nsplit rel error   xerror      xstd
+1 0.10714286      0 1.0000000 1.000000 0.2362278
+2 0.07142857      6 0.2857143 1.500000 0.2683032
+3 0.03571429      7 0.2142857 1.285714 0.2569195
+4 0.02380952      9 0.1428571 1.285714 0.2569195
+5 0.01000000     14 0.0000000 1.285714 0.2569195
+
+Variable importance
+   Age  Start Number 
+    46     28     26 
+
+Node number 1: 64 observations,    complexity param=0.1071429
+  predicted class=absent   expected loss=0.21875  P(node) =1
+    class counts:    50    14
+   probabilities: 0.781 0.219 
+  left son=2 (35 obs) right son=3 (29 obs)
+  Primary splits:
+      Start  < 12.5  to the right, improve=6.286354, (0 missing)
+      Number < 4.5   to the left,  improve=5.253689, (0 missing)
+      Age    < 39.5  to the left,  improve=3.896745, (0 missing)
+  Surrogate splits:
+      Number < 4.5   to the left,  agree=0.672, adj=0.276, (0 split)
+      Age    < 75.5  to the right, agree=0.625, adj=0.172, (0 split)
+
+Node number 2: 35 observations,    complexity param=0.02380952
+  predicted class=absent   expected loss=0.05714286  P(node) =0.546875
+    class counts:    33     2
+   probabilities: 0.943 0.057 
+  left son=4 (20 obs) right son=5 (15 obs)
+  Primary splits:
+      Start  < 14.5  to the right, improve=1.7760210, (0 missing)
+      Age    < 80    to the left,  improve=1.0618020, (0 missing)
+      Number < 2.5   to the left,  improve=0.5367329, (0 missing)
+  Surrogate splits:
+      Number < 4.5   to the left,  agree=0.714, adj=0.333, (0 split)
+      Age    < 119   to the left,  agree=0.686, adj=0.267, (0 split)
+
+Node number 3: 29 observations,    complexity param=0.1071429
+  predicted class=absent   expected loss=0.4137931  P(node) =0.453125
+    class counts:    17    12
+   probabilities: 0.586 0.414 
+  left son=6 (10 obs) right son=7 (19 obs)
+  Primary splits:
+      Age    < 34.5  to the left,  improve=3.485282, (0 missing)
+      Number < 4.5   to the left,  improve=2.298780, (0 missing)
+      Start  < 8.5   to the right, improve=1.408631, (0 missing)
+  Surrogate splits:
+      Start < 2.5   to the left,  agree=0.69, adj=0.1, (0 split)
+
+Node number 4: 20 observations
+  predicted class=absent   expected loss=0  P(node) =0.3125
+    class counts:    20     0
+   probabilities: 1.000 0.000 
+
+Node number 5: 15 observations,    complexity param=0.02380952
+  predicted class=absent   expected loss=0.1333333  P(node) =0.234375
+    class counts:    13     2
+   probabilities: 0.867 0.133 
+  left son=10 (5 obs) right son=11 (10 obs)
+  Primary splits:
+      Age    < 157.5 to the right, improve=0.8860928, (0 missing)
+      Number < 2.5   to the left,  improve=0.3089177, (0 missing)
+      Start  < 13.5  to the left,  improve=0.1372752, (0 missing)
+  Surrogate splits:
+      Start < 13.5  to the right, agree=0.733, adj=0.2, (0 split)
+
+Node number 6: 10 observations,    complexity param=0.07142857
+  predicted class=absent   expected loss=0.1  P(node) =0.15625
+    class counts:     9     1
+   probabilities: 0.900 0.100 
+  left son=12 (9 obs) right son=13 (1 obs)
+  Primary splits:
+      Number < 6.5   to the left,  improve=3.2508300, (0 missing)
+      Start  < 4     to the right, improve=1.3412870, (0 missing)
+      Age    < 16    to the right, improve=0.7488176, (0 missing)
+
+Node number 7: 19 observations,    complexity param=0.1071429
+  predicted class=present  expected loss=0.4210526  P(node) =0.296875
+    class counts:     8    11
+   probabilities: 0.421 0.579 
+  left son=14 (2 obs) right son=15 (17 obs)
+  Primary splits:
+      Age    < 139.5 to the right, improve=1.894738, (0 missing)
+      Number < 2.5   to the left,  improve=1.894738, (0 missing)
+      Start  < 11.5  to the left,  improve=1.841605, (0 missing)
+
+Node number 10: 5 observations
+  predicted class=absent   expected loss=0  P(node) =0.078125
+    class counts:     5     0
+   probabilities: 1.000 0.000 
+
+Node number 11: 10 observations,    complexity param=0.02380952
+  predicted class=absent   expected loss=0.2  P(node) =0.15625
+    class counts:     8     2
+   probabilities: 0.800 0.200 
+  left son=22 (9 obs) right son=23 (1 obs)
+  Primary splits:
+      Age    < 144   to the left,  improve=1.8645350, (0 missing)
+      Start  < 13.5  to the left,  improve=0.6035686, (0 missing)
+      Number < 2.5   to the left,  improve=0.2366684, (0 missing)
+
+Node number 12: 9 observations
+  predicted class=absent   expected loss=0  P(node) =0.140625
+    class counts:     9     0
+   probabilities: 1.000 0.000 
+
+Node number 13: 1 observations
+  predicted class=present  expected loss=0  P(node) =0.015625
+    class counts:     0     1
+   probabilities: 0.000 1.000 
+
+Node number 14: 2 observations
+  predicted class=absent   expected loss=0  P(node) =0.03125
+    class counts:     2     0
+   probabilities: 1.000 0.000 
+
+Node number 15: 17 observations,    complexity param=0.1071429
+  predicted class=present  expected loss=0.3529412  P(node) =0.265625
+    class counts:     6    11
+   probabilities: 0.353 0.647 
+  left son=30 (2 obs) right son=31 (15 obs)
+  Primary splits:
+      Number < 2.5   to the left,  improve=2.338494, (0 missing)
+      Start  < 11.5  to the left,  improve=1.476509, (0 missing)
+      Age    < 72    to the left,  improve=1.252841, (0 missing)
+
+Node number 22: 9 observations,    complexity param=0.02380952
+  predicted class=absent   expected loss=0.1111111  P(node) =0.140625
+    class counts:     8     1
+   probabilities: 0.889 0.111 
+  left son=44 (7 obs) right son=45 (2 obs)
+  Primary splits:
+      Start  < 13.5  to the left,  improve=1.7531950, (0 missing)
+      Number < 4.5   to the left,  improve=0.8901483, (0 missing)
+      Age    < 59    to the left,  improve=0.6374767, (0 missing)
+
+Node number 23: 1 observations
+  predicted class=present  expected loss=0  P(node) =0.015625
+    class counts:     0     1
+   probabilities: 0.000 1.000 
+
+Node number 30: 2 observations
+  predicted class=absent   expected loss=0  P(node) =0.03125
+    class counts:     2     0
+   probabilities: 1.000 0.000 
+
+Node number 31: 15 observations,    complexity param=0.1071429
+  predicted class=present  expected loss=0.2666667  P(node) =0.234375
+    class counts:     4    11
+   probabilities: 0.267 0.733 
+  left son=62 (7 obs) right son=63 (8 obs)
+  Primary splits:
+      Age    < 72    to the left,  improve=3.918371, (0 missing)
+      Start  < 11    to the left,  improve=1.060558, (0 missing)
+      Number < 4.5   to the left,  improve=0.329645, (0 missing)
+  Surrogate splits:
+      Number < 3.5   to the right, agree=0.6, adj=0.143, (0 split)
+
+Node number 44: 7 observations
+  predicted class=absent   expected loss=0  P(node) =0.109375
+    class counts:     7     0
+   probabilities: 1.000 0.000 
+
+Node number 45: 2 observations,    complexity param=0.02380952
+  predicted class=absent   expected loss=0.5  P(node) =0.03125
+    class counts:     1     1
+   probabilities: 0.500 0.500 
+  left son=90 (1 obs) right son=91 (1 obs)
+  Primary splits:
+      Age    < 91    to the right, improve=1.386294, (0 missing)
+      Number < 4     to the left,  improve=1.386294, (0 missing)
+
+Node number 62: 7 observations,    complexity param=0.1071429
+  predicted class=absent   expected loss=0.4285714  P(node) =0.109375
+    class counts:     4     3
+   probabilities: 0.571 0.429 
+  left son=124 (3 obs) right son=125 (4 obs)
+  Primary splits:
+      Age    < 60    to the right, improve=2.531016, (0 missing)
+      Number < 4.5   to the left,  improve=1.415298, (0 missing)
+      Start  < 5.5   to the left,  improve=1.415298, (0 missing)
+  Surrogate splits:
+      Number < 4.5   to the left,  agree=0.857, adj=0.667, (0 split)
+      Start  < 5.5   to the left,  agree=0.857, adj=0.667, (0 split)
+
+Node number 63: 8 observations
+  predicted class=present  expected loss=0  P(node) =0.125
+    class counts:     0     8
+   probabilities: 0.000 1.000 
+
+Node number 90: 1 observations
+  predicted class=absent   expected loss=0  P(node) =0.015625
+    class counts:     1     0
+   probabilities: 1.000 0.000 
+
+Node number 91: 1 observations
+  predicted class=present  expected loss=0  P(node) =0.015625
+    class counts:     0     1
+   probabilities: 0.000 1.000 
+
+Node number 124: 3 observations
+  predicted class=absent   expected loss=0  P(node) =0.046875
+    class counts:     3     0
+   probabilities: 1.000 0.000 
+
+Node number 125: 4 observations,    complexity param=0.03571429
+  predicted class=present  expected loss=0.25  P(node) =0.0625
+    class counts:     1     3
+   probabilities: 0.250 0.750 
+  left son=250 (2 obs) right son=251 (2 obs)
+  Primary splits:
+      Age    < 51.5  to the left,  improve=0.8630462, (0 missing)
+      Number < 6.5   to the right, improve=0.8630462, (0 missing)
+      Start  < 7.5   to the right, improve=0.8630462, (0 missing)
+  Surrogate splits:
+      Number < 6.5   to the right, agree=1, adj=1, (0 split)
+
+Node number 250: 2 observations,    complexity param=0.03571429
+  predicted class=absent   expected loss=0.5  P(node) =0.03125
+    class counts:     1     1
+   probabilities: 0.500 0.500 
+  left son=500 (1 obs) right son=501 (1 obs)
+  Primary splits:
+      Age   < 46.5  to the right, improve=1.386294, (0 missing)
+      Start < 7.5   to the right, improve=1.386294, (0 missing)
+
+Node number 251: 2 observations
+  predicted class=present  expected loss=0  P(node) =0.03125
+    class counts:     0     2
+   probabilities: 0.000 1.000 
+
+Node number 500: 1 observations
+  predicted class=absent   expected loss=0  P(node) =0.015625
+    class counts:     1     0
+   probabilities: 1.000 0.000 
+
+Node number 501: 1 observations
+  predicted class=present  expected loss=0  P(node) =0.015625
+    class counts:     0     1
+   probabilities: 0.000 1.000 
+
+> CPVal<-kyphosis_fit$cptable[which.min(kyphosis_fit$cptable[,"xerror"]),"CP"]
+> CPVal
+[1] 0.1071429
+> pruned_fit<-prune(kyphosis_fit,cp=as.numeric(CPVal))
+> out<-predict(pruned_fit,newdata=testData,type="vector")
+> tab <- table(out, testData$Kyphosis)
+> tab
+   
+out absent present
+  1     14       3
+> accuracy<-sum(diag(tab))/sum(tab)
+> accuracyPercentage<-accuracy*100
+> accuracyPercentage
+[1] 82.35294
