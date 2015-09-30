@@ -6,7 +6,7 @@ train<-sample(nrow(solder),size=floor_val)
 trainingData<-solder[train,]
 testData<-solder[-train,]
 solder_fit<-rpart(Solder~.,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
-par(mar = rep(0.1, 4))
+par(mar = rep(0.1, 4)) 
 plot(solder_fit)
 text(solder_fit)
 summary(solder_fit)
