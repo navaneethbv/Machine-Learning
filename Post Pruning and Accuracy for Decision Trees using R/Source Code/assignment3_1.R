@@ -9,7 +9,7 @@ kyphosis_fit<-rpart(Kyphosis~Age+Number+Start,parms=list(split='information'), m
 par(mar = rep(0.1, 4))
 plot(kyphosis_fit)
 text(kyphosis_fit)
-summary(kyphosis_fit)
+summary(kyphosis_fit) 
 CPVal<-kyphosis_fit$cptable[which.min(kyphosis_fit$cptable[,"xerror"]),"CP"]
 CPVal
 pruned_fit<-prune(kyphosis_fit,cp=as.numeric(CPVal))
