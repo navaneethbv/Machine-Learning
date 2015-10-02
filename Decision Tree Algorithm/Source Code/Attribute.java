@@ -6,7 +6,7 @@
  */
 public class Attribute {
 	/**
-	 * Name of this attribute
+	 * Name of this attribute 
 	 */
 	public String name;
 	/**
