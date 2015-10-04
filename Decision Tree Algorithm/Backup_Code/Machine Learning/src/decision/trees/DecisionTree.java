@@ -11,7 +11,7 @@ public class DecisionTree {
 	/** The tree's root node. */
 	public Node root;
 	/**
-	 * Variable to number the nodes
+	 * Variable to number the nodes 
 	 */
 	private int index;
 	/**
