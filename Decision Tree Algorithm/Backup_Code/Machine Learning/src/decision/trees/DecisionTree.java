@@ -5,7 +5,7 @@ import java.util.Random;
  * Class to implement a custom decision tree
  *
  * @author Navaneeth.Rao
- *
+ * 
  */
 public class DecisionTree {
 	/** The tree's root node. */
