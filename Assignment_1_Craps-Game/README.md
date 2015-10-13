@@ -7,3 +7,4 @@
 
 Reverse Martingale seems to be best strategy as it has yielded the maximum profit over the course of 5 rounds. Martingale seems to be the worst strategy as there have been instances where the user hasn’t been able to complete his quota of 10 games.
 Note: The strategies Even Wager and Reverse Martingale ensures that the user gets to play his quota of 10 games per round.
+ 
