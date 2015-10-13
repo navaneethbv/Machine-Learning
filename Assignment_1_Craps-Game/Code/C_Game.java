@@ -1,6 +1,6 @@
 package utd.ml.assign1.craps;
 
-public class C_Game 
+public class C_Game  
 {
 	public static void main(String[] args) 
 	{
