@@ -11,7 +11,7 @@ plot(solder_fit)
 text(solder_fit)
 summary(solder_fit)
 CPVal<-solder_fit$cptable[which.min(solder_fit$cptable[,"xerror"]),"CP"]
-CPVal
+CPVal 
 pruned_fit<-prune(solder_fit,cp=as.numeric(CPVal))
 out<-predict(pruned_fit,newdata=testData,type="vector")
 tab <- table(out, testData$Solder)
