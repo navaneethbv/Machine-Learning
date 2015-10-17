@@ -7,7 +7,7 @@ maxSecondAttributeIndex<-0
 corrVal<-0
 for (i in 1:7)
 {
-  a<-i+1
+  a<-i+1 
   for (j in a:8)
   {
     corrVal<-cor(diabetes_data[[i]],diabetes_data[[j]])
