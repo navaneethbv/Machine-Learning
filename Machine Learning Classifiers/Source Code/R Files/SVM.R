@@ -7,7 +7,7 @@ sum = 0
 count = 0
 kernels = c('','linear','polynomial','radial','sigmoid')
 flag =0
-for(kernel1 in kernels){
+for(kernel1 in kernels){ 
   for (i  in 1:10)
   {
     split_data<- sample(nrow(dataset1), size = nrow(dataset1)* 0.9)
