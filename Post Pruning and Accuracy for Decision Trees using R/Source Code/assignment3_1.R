@@ -1,6 +1,6 @@
 library(rpart)
 data("kyphosis")
-str(kyphosis)
+str(kyphosis) 
 floor_val<-floor(0.8*nrow(kyphosis))
 train<-sample(nrow(kyphosis),size=floor_val)
 trainingData<-kyphosis[train,]
