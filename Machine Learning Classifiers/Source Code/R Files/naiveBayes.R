@@ -10,7 +10,7 @@ m <- naiveBayes(as.factor(X1) ~ ., data = dataset.train, type="raw")
 pred <- predict(m, dataset.test[,-9])
 accuracy <- (mean(pred == t(dataset.test[9])))*100;
 print(accuracy)
-sum=sum+accuracy
+sum=sum+accuracy 
 }
 overallAcc <- sum/10;
 
