@@ -30,4 +30,4 @@ Note: The csv file has to be placed in the same path as the Python file.
 
 7. A report has been included as part of the files.
 
-Note: The default SVM is the best classifier for this Dataset. Naïve Bayesian’s accuracy is close enough but it’s value deviates a lot and hence not considered.
+Note: The default SVM is the best classifier for this Dataset. NaÃ¯ve Bayesianâ€™s accuracy is close enough but itâ€™s value deviates a lot and hence not considered.
