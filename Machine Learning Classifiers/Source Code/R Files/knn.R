@@ -5,7 +5,7 @@ n <- nrow(dataset)
 
 kVal=c(3,5,7,9,11)
 for(j in 1:5){
-  sum=0.00;
+  sum=0.00; 
 for(i in 1:10){
   trainRow <- sort(sample(1:n, floor(n*0.9)))
   dataset.train <- dataset[trainRow,]
