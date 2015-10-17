@@ -1,0 +1,13 @@
+args <- commandArgs(TRUE)
+fileName <- args[1]
+diabetes_data<-read.csv(fileName,header = FALSE)
+attach(diabetes_data)
+par(mfrow=c(3,3)) 
+hist(diabetes_data$V1)
+hist(diabetes_data$V2)
+hist(diabetes_data$V3)
+hist(diabetes_data$V4)
+hist(diabetes_data$V5)
+hist(diabetes_data$V6)
+hist(diabetes_data$V7)
+hist(diabetes_data$V8)
