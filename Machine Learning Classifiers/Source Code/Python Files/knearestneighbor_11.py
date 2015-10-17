@@ -3,7 +3,7 @@
 import csv
 import random
 import math
-import operator
+import operator 
 from idlelib.IOBinding import encoding
 
 def loadDataset(filename, split, trainingSet=[] , testSet=[]):
