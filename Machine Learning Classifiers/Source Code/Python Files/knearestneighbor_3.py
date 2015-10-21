@@ -1,6 +1,6 @@
 # Example of kNN implemented from Scratch in Python
 
-import csv
+import csv 
 import random
 import math
 import operator
