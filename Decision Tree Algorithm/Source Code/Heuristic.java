@@ -17,7 +17,7 @@ public class Heuristic {
 		// Assuming there are two values 0,1 possible, count how many values are
 		// in 0 and 1
 		double[] K = new double[2];
-		for (ArrayList<Attribute> attribute : data)
+		for (ArrayList<Attribute> attribute : data) 
 			K[attribute.get(attribute.size() - 1).value]++;
 
 		// Compute impurity (K0/K)(K1/K) as K0K1 / KK
