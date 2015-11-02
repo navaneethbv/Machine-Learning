@@ -2,7 +2,7 @@
 
 import csv 
 import random
-import math 
+import math  
 import operator
 from idlelib.IOBinding import encoding
 
