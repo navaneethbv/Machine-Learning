@@ -1,0 +1,2348 @@
+nputting url http://www.utdallas.edu/~axn112530/cs6375/creditset.csv
+Loading required package: mlbench
+Loading required package: caret
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: methods
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘ipred’
+
+The following object is masked from ‘package:adabag’:
+
+    bagging
+
+Running sample  1 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.98 
+Method = Naive Bayes  and Accuracy =  0.975 
+Method = KNN  and Accuracy =  0.8 
+Method = Logistic Regression  and Accuracy =  0.96 
+# weights:  29
+initial  value 2439.884135 
+iter  10 value 733.277202
+iter  20 value 702.121635
+iter  30 value 489.778233
+iter  40 value 469.896009
+iter  50 value 466.040028
+iter  60 value 465.963544
+iter  70 value 465.485512
+iter  80 value 465.128514
+iter  90 value 460.481890
+iter 100 value 453.722155
+iter 110 value 448.111658
+iter 120 value 447.626669
+iter 130 value 447.402135
+final  value 447.390615 
+converged
+# weights:  29
+initial  value 2029.925833 
+iter  10 value 728.970947
+iter  20 value 728.945553
+final  value 728.945265 
+converged
+Method = Neural Networks  and Accuracy =  0.845 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  2 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.965 
+Method = Naive Bayes  and Accuracy =  0.965 
+Method = KNN  and Accuracy =  0.82 
+Method = Logistic Regression  and Accuracy =  0.94 
+# weights:  29
+initial  value 945.651823 
+iter  10 value 734.372954
+iter  20 value 528.044596
+iter  30 value 500.475328
+iter  40 value 490.754335
+iter  50 value 482.887720
+iter  60 value 482.880658
+iter  70 value 454.004531
+iter  80 value 452.103609
+iter  90 value 446.874132
+iter 100 value 435.318776
+iter 110 value 342.697523
+iter 120 value 88.669205
+iter 130 value 30.772257
+iter 140 value 18.749091
+iter 150 value 18.178459
+iter 160 value 18.032722
+iter 170 value 17.957689
+iter 180 value 16.382923
+iter 190 value 15.725726
+iter 200 value 15.559767
+iter 210 value 15.543793
+iter 220 value 15.535722
+iter 230 value 15.516688
+iter 240 value 15.491121
+final  value 15.490515 
+converged
+# weights:  29
+initial  value 1086.119274 
+iter  10 value 734.378150
+iter  20 value 734.375703
+final  value 734.375674 
+converged
+Method = Neural Networks  and Accuracy =  0.86 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  3 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.985 
+Method = Naive Bayes  and Accuracy =  0.975 
+Method = KNN  and Accuracy =  0.85 
+Method = Logistic Regression  and Accuracy =  0.935 
+# weights:  29
+initial  value 739.576266 
+iter  10 value 728.943520
+final  value 728.942519 
+converged
+# weights:  29
+initial  value 1042.585801 
+iter  10 value 728.952952
+iter  20 value 728.950774
+final  value 728.950750 
+converged
+Method = Neural Networks  and Accuracy =  0.845 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  4 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.99 
+Method = Naive Bayes  and Accuracy =  0.97 
+Method = KNN  and Accuracy =  0.805 
+Method = Logistic Regression  and Accuracy =  0.955 
+# weights:  29
+initial  value 1786.568727 
+iter  10 value 714.274771
+iter  20 value 518.869503
+iter  30 value 457.619384
+iter  40 value 456.293403
+iter  50 value 452.198381
+iter  60 value 445.630020
+iter  70 value 442.867910
+iter  80 value 439.305812
+iter  90 value 339.945809
+iter 100 value 294.752126
+iter 110 value 293.490501
+iter 120 value 198.754835
+iter 130 value 128.669715
+iter 140 value 90.130932
+iter 150 value 74.645094
+iter 160 value 72.133870
+iter 170 value 63.396677
+iter 180 value 33.790656
+iter 190 value 27.743770
+iter 200 value 18.124268
+iter 210 value 17.077697
+iter 220 value 16.971964
+iter 230 value 16.899485
+iter 240 value 16.346932
+iter 250 value 15.962604
+iter 260 value 15.672322
+iter 270 value 15.544350
+iter 280 value 15.458083
+iter 290 value 15.375666
+iter 300 value 15.170497
+iter 310 value 15.068355
+iter 320 value 15.058569
+iter 330 value 15.050908
+final  value 15.049568 
+converged
+# weights:  29
+initial  value 1375.996138 
+iter  10 value 714.281614
+iter  20 value 714.280146
+iter  20 value 714.280140
+final  value 714.280132 
+converged
+Method = Neural Networks  and Accuracy =  0.805 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  5 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.96 
+Method = Naive Bayes  and Accuracy =  0.945 
+Method = KNN  and Accuracy =  0.81 
+Method = Logistic Regression  and Accuracy =  0.915 
+# weights:  29
+initial  value 1899.613918 
+iter  10 value 730.819841
+iter  20 value 697.017730
+iter  30 value 494.842516
+iter  40 value 493.666811
+iter  50 value 493.662535
+iter  60 value 471.195897
+iter  70 value 460.458045
+iter  80 value 453.861599
+iter  90 value 437.185690
+iter 100 value 307.256578
+iter 110 value 113.134209
+iter 120 value 92.821158
+iter 130 value 88.909469
+iter 140 value 88.356802
+iter 150 value 80.562644
+iter 160 value 79.410820
+iter 170 value 72.219379
+iter 180 value 44.611922
+iter 190 value 18.556712
+iter 200 value 17.153054
+iter 210 value 17.142875
+iter 220 value 17.142182
+final  value 17.142091 
+converged
+# weights:  29
+initial  value 1927.361781 
+iter  10 value 730.766680
+iter  20 value 730.763690
+iter  30 value 721.117587
+iter  40 value 634.043483
+iter  50 value 256.468922
+iter  60 value 205.621449
+iter  70 value 109.816769
+iter  80 value 62.067423
+iter  90 value 58.123554
+iter 100 value 57.578832
+iter 110 value 32.687828
+iter 120 value 25.809058
+iter 130 value 18.593530
+iter 140 value 18.260902
+iter 150 value 16.822804
+iter 160 value 16.740642
+iter 170 value 16.732363
+iter 180 value 16.727920
+final  value 16.719826 
+converged
+Method = Neural Networks  and Accuracy =  1 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  6 
+Method = Decision Tree  and Accuracy =  0.99 
+Method = SVM  and Accuracy =  0.985 
+Method = Naive Bayes  and Accuracy =  0.98 
+Method = KNN  and Accuracy =  0.78 
+Method = Logistic Regression  and Accuracy =  0.965 
+# weights:  29
+initial  value 1779.053494 
+iter  10 value 729.712061
+iter  20 value 680.522001
+iter  30 value 500.876054
+iter  40 value 500.063734
+iter  50 value 472.617693
+iter  60 value 467.157557
+iter  70 value 466.688415
+iter  80 value 466.351192
+iter  90 value 465.673472
+iter 100 value 441.160859
+iter 110 value 325.304330
+iter 120 value 108.708981
+iter 130 value 52.768842
+iter 140 value 47.420273
+iter 150 value 32.190170
+iter 160 value 24.624006
+iter 170 value 24.365905
+iter 180 value 24.352511
+iter 190 value 24.316670
+iter 200 value 24.062849
+iter 210 value 23.025458
+iter 220 value 17.700312
+iter 230 value 16.413827
+iter 240 value 16.155414
+iter 250 value 16.070831
+iter 260 value 15.858403
+iter 270 value 15.835080
+iter 280 value 15.754901
+final  value 15.724940 
+converged
+# weights:  29
+initial  value 1466.398294 
+iter  10 value 728.971369
+iter  20 value 653.080775
+iter  30 value 578.737826
+iter  40 value 577.738165
+iter  50 value 532.834045
+iter  60 value 498.874285
+iter  70 value 455.652347
+iter  80 value 444.223025
+iter  90 value 443.665438
+iter 100 value 443.560887
+iter 110 value 443.504900
+iter 120 value 441.876881
+iter 130 value 410.287286
+iter 140 value 230.459155
+iter 150 value 90.584953
+iter 160 value 79.085297
+iter 170 value 78.520863
+iter 180 value 76.035240
+iter 190 value 75.083950
+iter 200 value 71.092577
+iter 210 value 43.139910
+iter 220 value 41.042355
+iter 230 value 41.005901
+iter 240 value 41.001500
+iter 250 value 23.849687
+iter 260 value 21.328682
+iter 270 value 17.917092
+iter 280 value 17.790024
+iter 290 value 17.494767
+iter 300 value 17.481613
+iter 310 value 17.340436
+iter 320 value 17.319367
+final  value 17.318837 
+converged
+Method = Neural Networks  and Accuracy =  0.99 
+Method = Random Forest  and Accuracy =  0.99 
+Method = Bagging  and Accuracy =  0.99 
+Method = Boosting  and Accuracy =  0.995 
+Running sample  7 
+Method = Decision Tree  and Accuracy =  0.995 
+Method = SVM  and Accuracy =  0.985 
+Method = Naive Bayes  and Accuracy =  0.955 
+Method = KNN  and Accuracy =  0.765 
+Method = Logistic Regression  and Accuracy =  0.94 
+# weights:  29
+initial  value 1030.891116 
+iter  10 value 703.079407
+iter  20 value 703.078500
+iter  20 value 703.078499
+iter  20 value 703.078499
+final  value 703.078499 
+converged
+# weights:  29
+initial  value 1023.181680 
+iter  10 value 703.078098
+iter  20 value 703.072674
+iter  30 value 451.143088
+iter  40 value 446.705270
+iter  50 value 443.565339
+iter  60 value 442.555827
+iter  70 value 442.530639
+iter  80 value 442.203424
+iter  90 value 441.038549
+iter 100 value 434.765970
+iter 110 value 399.078778
+iter 120 value 306.913979
+iter 130 value 275.559150
+iter 140 value 265.446791
+iter 150 value 244.754598
+iter 160 value 31.397683
+iter 170 value 27.527073
+iter 180 value 16.995922
+iter 190 value 16.878680
+iter 200 value 16.597558
+iter 210 value 16.487267
+iter 220 value 16.468484
+iter 230 value 16.425136
+iter 240 value 16.108988
+iter 250 value 15.574051
+iter 260 value 15.452621
+iter 270 value 15.434474
+iter 280 value 15.431442
+iter 290 value 15.430791
+iter 300 value 15.428206
+iter 310 value 15.428044
+final  value 15.428040 
+converged
+Method = Neural Networks  and Accuracy =  0.99 
+Method = Random Forest  and Accuracy =  0.995 
+Method = Bagging  and Accuracy =  0.995 
+Method = Boosting  and Accuracy =  0.995 
+Running sample  8 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.98 
+Method = Naive Bayes  and Accuracy =  0.97 
+Method = KNN  and Accuracy =  0.835 
+Method = Logistic Regression  and Accuracy =  0.97 
+# weights:  29
+initial  value 986.356616 
+iter  10 value 686.602972
+iter  20 value 478.027651
+iter  30 value 460.337740
+iter  40 value 456.420888
+iter  50 value 451.706959
+iter  60 value 449.821007
+iter  70 value 449.789772
+iter  80 value 449.731578
+iter  90 value 447.671379
+iter 100 value 405.398038
+iter 110 value 80.422505
+iter 120 value 46.442978
+iter 130 value 40.777501
+iter 140 value 39.879248
+iter 150 value 29.336177
+iter 160 value 19.872007
+iter 170 value 17.659171
+iter 180 value 17.175824
+iter 190 value 16.396728
+iter 200 value 16.072966
+iter 210 value 16.070647
+iter 210 value 16.070647
+final  value 16.070647 
+converged
+# weights:  29
+initial  value 1279.048828 
+iter  10 value 734.372255
+final  value 734.367564 
+converged
+Method = Neural Networks  and Accuracy =  0.86 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  9 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.995 
+Method = Naive Bayes  and Accuracy =  0.985 
+Method = KNN  and Accuracy =  0.815 
+Method = Logistic Regression  and Accuracy =  0.98 
+# weights:  29
+initial  value 1289.535114 
+iter  10 value 739.767844
+iter  20 value 739.759580
+final  value 739.759494 
+converged
+# weights:  29
+initial  value 1987.798411 
+iter  10 value 739.775887
+iter  20 value 739.754407
+final  value 739.754167 
+converged
+Method = Neural Networks  and Accuracy =  0.875 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Running sample  10 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  0.985 
+Method = Naive Bayes  and Accuracy =  0.975 
+Method = KNN  and Accuracy =  0.8 
+Method = Logistic Regression  and Accuracy =  0.975 
+# weights:  29
+initial  value 1581.062810 
+iter  10 value 727.136707
+iter  20 value 727.133279
+final  value 727.133234 
+converged
+# weights:  29
+initial  value 1585.303741 
+iter  10 value 727.136850
+iter  20 value 727.133281
+final  value 727.133234 
+converged
+Method = Neural Networks  and Accuracy =  0.84 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  1 
+Method = Boosting  and Accuracy =  1 
+Inputting url http://www.ats.ucla.edu/stat/data/binary.csv
+Loading required package: mlbench
+Loading required package: caret
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: methods
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘ipred’
+
+The following object is masked from ‘package:adabag’:
+
+    bagging
+
+Running sample  1 
+Method = Decision Tree  and Accuracy =  0.675 
+Method = SVM  and Accuracy =  0.675 
+Method = Naive Bayes  and Accuracy =  0.7 
+Method = KNN  and Accuracy =  0.6 
+Method = Logistic Regression  and Accuracy =  0.65 
+# weights:  21
+initial  value 239.378958 
+iter  10 value 223.985947
+iter  20 value 223.822324
+iter  30 value 209.187691
+iter  40 value 206.093003
+iter  50 value 206.077869
+iter  60 value 205.873894
+iter  70 value 205.495053
+iter  80 value 204.924763
+iter  90 value 204.534572
+iter 100 value 204.197615
+iter 110 value 204.093463
+iter 120 value 204.082031
+iter 130 value 204.081794
+final  value 204.081789 
+converged
+# weights:  21
+initial  value 287.781062 
+iter  10 value 223.989798
+iter  20 value 223.899708
+iter  30 value 214.145577
+iter  40 value 207.574493
+iter  50 value 206.400074
+iter  60 value 206.133771
+iter  70 value 206.050639
+iter  80 value 205.980083
+iter  90 value 205.618523
+iter 100 value 205.388138
+iter 110 value 205.331049
+final  value 205.329240 
+converged
+Method = Neural Networks  and Accuracy =  0.7 
+Method = Random Forest  and Accuracy =  0.725 
+Method = Bagging  and Accuracy =  0.6 
+Method = Boosting  and Accuracy =  0.7 
+Running sample  2 
+Method = Decision Tree  and Accuracy =  0.55 
+Method = SVM  and Accuracy =  0.75 
+Method = Naive Bayes  and Accuracy =  0.75 
+Method = KNN  and Accuracy =  0.675 
+Method = Logistic Regression  and Accuracy =  0.75 
+# weights:  21
+initial  value 233.541224 
+iter  10 value 227.008345
+iter  20 value 219.478771
+iter  30 value 210.922461
+iter  40 value 207.853579
+iter  50 value 207.584272
+iter  60 value 207.308537
+iter  70 value 207.173970
+iter  80 value 206.773740
+iter  90 value 206.447468
+iter 100 value 204.403422
+iter 110 value 203.925524
+iter 120 value 203.669770
+iter 130 value 203.095765
+iter 140 value 201.957168
+iter 150 value 201.443643
+iter 160 value 201.325299
+iter 170 value 201.270277
+iter 180 value 201.269414
+final  value 201.269409 
+converged
+# weights:  21
+initial  value 328.191311 
+iter  10 value 227.016535
+iter  20 value 226.972657
+iter  30 value 214.114918
+iter  40 value 210.480245
+iter  50 value 209.393414
+iter  60 value 207.819044
+iter  70 value 207.279618
+iter  80 value 206.846873
+iter  90 value 206.693003
+iter 100 value 206.573963
+iter 110 value 205.717687
+iter 120 value 204.161666
+iter 130 value 203.848760
+iter 140 value 203.820807
+iter 150 value 203.789775
+iter 160 value 203.785535
+iter 170 value 203.785321
+final  value 203.785318 
+converged
+Method = Neural Networks  and Accuracy =  0.7 
+Method = Random Forest  and Accuracy =  0.725 
+Method = Bagging  and Accuracy =  0.525 
+Method = Boosting  and Accuracy =  0.65 
+Running sample  3 
+Method = Decision Tree  and Accuracy =  0.625 
+Method = SVM  and Accuracy =  0.725 
+Method = Naive Bayes  and Accuracy =  0.7 
+Method = KNN  and Accuracy =  0.625 
+Method = Logistic Regression  and Accuracy =  0.75 
+# weights:  21
+initial  value 227.848842 
+iter  10 value 226.975771
+iter  20 value 220.473717
+iter  30 value 206.999297
+iter  40 value 206.717049
+iter  50 value 206.492998
+iter  60 value 206.013418
+iter  70 value 205.462574
+iter  80 value 205.426005
+iter  90 value 205.141629
+iter 100 value 204.313084
+iter 110 value 203.119389
+iter 120 value 202.263334
+iter 130 value 201.457057
+iter 140 value 201.431100
+iter 150 value 201.384854
+iter 160 value 201.337963
+iter 170 value 201.323206
+final  value 201.322394 
+converged
+# weights:  21
+initial  value 272.202158 
+iter  10 value 230.208158
+iter  20 value 224.520420
+iter  30 value 209.044374
+iter  40 value 206.680711
+iter  50 value 206.413151
+iter  60 value 206.389978
+iter  70 value 206.360300
+iter  80 value 205.895869
+iter  90 value 205.056439
+iter 100 value 204.943402
+iter 110 value 204.928904
+iter 120 value 204.908321
+final  value 204.908190 
+converged
+Method = Neural Networks  and Accuracy =  0.7 
+Method = Random Forest  and Accuracy =  0.725 
+Method = Bagging  and Accuracy =  0.725 
+Method = Boosting  and Accuracy =  0.65 
+Running sample  4 
+Method = Decision Tree  and Accuracy =  0.75 
+Method = SVM  and Accuracy =  0.675 
+Method = Naive Bayes  and Accuracy =  0.65 
+Method = KNN  and Accuracy =  0.65 
+Method = Logistic Regression  and Accuracy =  0.7 
+# weights:  21
+initial  value 282.809663 
+iter  10 value 224.761968
+iter  20 value 212.905881
+iter  30 value 205.681138
+iter  40 value 205.162493
+iter  50 value 203.753345
+iter  60 value 203.374957
+iter  70 value 202.472613
+iter  80 value 200.277376
+iter  90 value 199.831337
+iter 100 value 199.821971
+final  value 199.821915 
+converged
+# weights:  21
+initial  value 244.297673 
+iter  10 value 224.764051
+iter  20 value 224.311322
+iter  30 value 209.018191
+iter  40 value 208.696233
+iter  50 value 208.136246
+iter  60 value 206.249884
+iter  70 value 202.810126
+iter  80 value 201.621248
+iter  90 value 201.073908
+iter 100 value 200.848592
+iter 110 value 200.074952
+iter 120 value 199.839908
+iter 130 value 199.837925
+final  value 199.837914 
+converged
+Method = Neural Networks  and Accuracy =  0.7 
+Method = Random Forest  and Accuracy =  0.7 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.65 
+Running sample  5 
+Method = Decision Tree  and Accuracy =  0.675 
+Method = SVM  and Accuracy =  0.7 
+Method = Naive Bayes  and Accuracy =  0.7 
+Method = KNN  and Accuracy =  0.725 
+Method = Logistic Regression  and Accuracy =  0.675 
+# weights:  21
+initial  value 368.980179 
+iter  10 value 226.278384
+iter  20 value 226.273848
+iter  30 value 226.065010
+iter  40 value 211.429328
+iter  50 value 207.256457
+iter  60 value 206.922253
+iter  70 value 206.908175
+final  value 206.904832 
+converged
+# weights:  21
+initial  value 568.078789 
+iter  10 value 226.326909
+iter  20 value 226.311232
+iter  30 value 226.291180
+iter  40 value 226.287856
+iter  50 value 226.219315
+iter  60 value 213.609835
+iter  70 value 208.649888
+iter  80 value 208.312358
+iter  90 value 208.228997
+final  value 208.227404 
+converged
+Method = Neural Networks  and Accuracy =  0.725 
+Method = Random Forest  and Accuracy =  0.675 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.7 
+Running sample  6 
+Method = Decision Tree  and Accuracy =  0.6 
+Method = SVM  and Accuracy =  0.65 
+Method = Naive Bayes  and Accuracy =  0.65 
+Method = KNN  and Accuracy =  0.625 
+Method = Logistic Regression  and Accuracy =  0.625 
+# weights:  21
+initial  value 307.936417 
+iter  10 value 223.200018
+iter  20 value 223.196911
+final  value 223.196907 
+converged
+# weights:  21
+initial  value 284.919738 
+iter  10 value 223.201717
+iter  20 value 223.156938
+iter  30 value 209.784608
+iter  40 value 206.481965
+iter  50 value 205.860267
+iter  60 value 205.807446
+iter  70 value 205.162970
+iter  80 value 204.931561
+iter  90 value 204.864257
+iter 100 value 203.716934
+iter 110 value 201.296536
+iter 120 value 199.188042
+iter 130 value 199.032858
+iter 140 value 199.028026
+final  value 199.027958 
+converged
+Method = Neural Networks  and Accuracy =  0.575 
+Method = Random Forest  and Accuracy =  0.675 
+Method = Bagging  and Accuracy =  0.675 
+Method = Boosting  and Accuracy =  0.65 
+Running sample  7 
+Method = Decision Tree  and Accuracy =  0.55 
+Method = SVM  and Accuracy =  0.675 
+Method = Naive Bayes  and Accuracy =  0.6 
+Method = KNN  and Accuracy =  0.475 
+Method = Logistic Regression  and Accuracy =  0.725 
+# weights:  21
+initial  value 228.601500 
+iter  10 value 225.463816
+iter  20 value 212.586251
+iter  30 value 205.756753
+iter  40 value 205.599055
+iter  50 value 205.327144
+iter  60 value 205.054586
+iter  70 value 205.030783
+final  value 205.030639 
+converged
+# weights:  21
+initial  value 232.510947 
+iter  10 value 225.526560
+iter  20 value 225.520773
+iter  30 value 224.638310
+iter  40 value 208.763524
+iter  50 value 208.095324
+iter  60 value 206.531096
+iter  70 value 206.153335
+iter  80 value 206.113518
+iter  90 value 205.864642
+iter 100 value 205.757448
+iter 110 value 205.279230
+iter 120 value 204.812102
+iter 130 value 204.029252
+iter 140 value 203.364658
+iter 150 value 201.015059
+iter 160 value 199.111801
+iter 170 value 199.008036
+iter 180 value 198.846332
+iter 190 value 198.701517
+iter 200 value 198.652010
+final  value 198.651932 
+converged
+Method = Neural Networks  and Accuracy =  0.625 
+Method = Random Forest  and Accuracy =  0.675 
+Method = Bagging  and Accuracy =  0.55 
+Method = Boosting  and Accuracy =  0.55 
+Running sample  8 
+Method = Decision Tree  and Accuracy =  0.725 
+Method = SVM  and Accuracy =  0.725 
+Method = Naive Bayes  and Accuracy =  0.675 
+Method = KNN  and Accuracy =  0.7 
+Method = Logistic Regression  and Accuracy =  0.675 
+# weights:  21
+initial  value 303.716560 
+iter  10 value 224.763841
+iter  20 value 224.760828
+final  value 224.760825 
+converged
+# weights:  21
+initial  value 417.489973 
+iter  10 value 224.765536
+iter  20 value 224.760561
+final  value 224.760546 
+converged
+Method = Neural Networks  and Accuracy =  0.675 
+Method = Random Forest  and Accuracy =  0.725 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.725 
+Running sample  9 
+Method = Decision Tree  and Accuracy =  0.575 
+Method = SVM  and Accuracy =  0.725 
+Method = Naive Bayes  and Accuracy =  0.675 
+Method = KNN  and Accuracy =  0.625 
+Method = Logistic Regression  and Accuracy =  0.725 
+# weights:  21
+initial  value 249.765126 
+iter  10 value 228.442174
+iter  20 value 220.958461
+iter  30 value 206.176637
+iter  40 value 205.802780
+iter  50 value 205.749201
+iter  60 value 205.501620
+iter  70 value 205.010312
+iter  80 value 204.599265
+iter  90 value 204.523263
+iter 100 value 204.270459
+iter 110 value 203.675101
+iter 120 value 202.275788
+iter 130 value 201.734366
+iter 140 value 201.616070
+iter 150 value 200.355083
+iter 160 value 200.233492
+iter 170 value 200.141597
+iter 180 value 200.132966
+final  value 200.132881 
+converged
+# weights:  21
+initial  value 244.457230 
+iter  10 value 228.452125
+iter  20 value 227.576472
+iter  30 value 223.482364
+iter  40 value 211.058528
+iter  50 value 210.651009
+iter  60 value 205.995846
+iter  70 value 205.422738
+iter  80 value 205.045958
+iter  90 value 204.618954
+iter 100 value 204.574210
+iter 110 value 204.570908
+final  value 204.570325 
+converged
+Method = Neural Networks  and Accuracy =  0.725 
+Method = Random Forest  and Accuracy =  0.725 
+Method = Bagging  and Accuracy =  0.6 
+Method = Boosting  and Accuracy =  0.65 
+Running sample  10 
+Method = Decision Tree  and Accuracy =  0.65 
+Method = SVM  and Accuracy =  0.7 
+Method = Naive Bayes  and Accuracy =  0.7 
+Method = KNN  and Accuracy =  0.675 
+Method = Logistic Regression  and Accuracy =  0.6 
+# weights:  21
+initial  value 258.191582 
+iter  10 value 222.399584
+iter  20 value 222.390683
+iter  30 value 219.589082
+iter  40 value 210.925526
+iter  50 value 208.964758
+iter  60 value 207.430350
+iter  70 value 206.796149
+iter  80 value 206.651556
+iter  90 value 206.641552
+iter 100 value 206.600644
+iter 110 value 206.591432
+iter 120 value 206.378956
+iter 130 value 204.172676
+iter 140 value 202.749921
+iter 150 value 201.646715
+iter 160 value 201.411775
+iter 170 value 201.369448
+final  value 201.369237 
+converged
+# weights:  21
+initial  value 310.655248 
+iter  10 value 222.397016
+iter  20 value 217.735819
+iter  30 value 208.148580
+iter  40 value 207.840502
+iter  50 value 207.746208
+iter  60 value 207.646504
+iter  70 value 207.394341
+iter  80 value 206.889399
+iter  90 value 206.667681
+iter 100 value 206.628753
+iter 110 value 206.393582
+iter 120 value 204.660061
+iter 130 value 201.622764
+iter 140 value 201.293297
+iter 150 value 201.147101
+iter 160 value 201.132309
+iter 170 value 201.131991
+final  value 201.131974 
+converged
+Method = Neural Networks  and Accuracy =  0.65 
+Method = Random Forest  and Accuracy =  0.7 
+Method = Bagging  and Accuracy =  0.675 
+Method = Boosting  and Accuracy =  0.775 
+Inputting url http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wpbc.data
+Loading required package: mlbench
+Loading required package: caret
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: methods
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘ipred’
+
+The following object is masked from ‘package:adabag’:
+
+    bagging
+
+Running sample  1 
+Method = Decision Tree  and Accuracy =  0.65 
+Method = SVM  and Accuracy =  0.7 
+Method = Naive Bayes  and Accuracy =  0.65 
+Method = KNN  and Accuracy =  0.55 
+Method = Logistic Regression  and Accuracy =  0.8 
+# weights:  229
+initial  value 112.474019 
+iter  10 value 96.097726
+iter  20 value 95.982628
+iter  30 value 95.299972
+iter  40 value 86.652309
+iter  50 value 81.421343
+iter  60 value 80.480610
+iter  70 value 78.553997
+iter  80 value 78.079839
+iter  90 value 71.396837
+iter 100 value 68.036169
+iter 110 value 67.602059
+iter 120 value 65.203811
+iter 130 value 63.205193
+iter 140 value 55.163525
+iter 150 value 52.474313
+iter 160 value 51.736891
+iter 170 value 51.673205
+iter 180 value 51.649991
+iter 190 value 51.584709
+iter 200 value 51.513655
+iter 210 value 51.504320
+iter 220 value 51.502988
+iter 230 value 51.502524
+iter 240 value 51.502458
+final  value 51.502457 
+converged
+# weights:  229
+initial  value 100.750893 
+iter  10 value 95.643093
+iter  20 value 93.940461
+iter  30 value 93.566206
+iter  40 value 92.577559
+iter  50 value 89.683211
+iter  60 value 84.812881
+iter  70 value 84.336472
+iter  80 value 84.253651
+iter  90 value 83.875619
+iter 100 value 82.572204
+iter 100 value 82.572204
+iter 110 value 82.062861
+iter 120 value 81.816326
+iter 130 value 80.855263
+iter 140 value 79.660490
+iter 150 value 77.364614
+iter 160 value 77.165930
+iter 170 value 76.940532
+iter 180 value 76.020562
+iter 190 value 73.470920
+iter 200 value 72.572737
+iter 210 value 68.050542
+iter 220 value 66.165368
+iter 230 value 65.975362
+iter 240 value 65.360426
+iter 250 value 64.755526
+iter 260 value 60.611342
+iter 270 value 59.707667
+iter 280 value 59.480122
+iter 290 value 59.343836
+iter 300 value 58.960628
+iter 310 value 58.806628
+iter 320 value 58.347980
+iter 330 value 58.168214
+iter 340 value 57.586222
+iter 350 value 56.943905
+iter 360 value 56.822003
+iter 370 value 56.811899
+iter 380 value 56.811653
+final  value 56.811649 
+converged
+Method = Neural Networks  and Accuracy =  0.65 
+Method = Random Forest  and Accuracy =  0.75 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.75 
+Running sample  2 
+Method = Decision Tree  and Accuracy =  0.75 
+Method = SVM  and Accuracy =  0.65 
+Method = Naive Bayes  and Accuracy =  0.85 
+Method = KNN  and Accuracy =  0.6 
+Method = Logistic Regression  and Accuracy =  0.8 
+# weights:  229
+initial  value 130.849345 
+iter  10 value 94.856504
+iter  20 value 94.693454
+iter  30 value 94.668819
+final  value 94.668490 
+converged
+# weights:  229
+initial  value 144.417446 
+iter  10 value 94.856550
+iter  20 value 94.854819
+iter  30 value 94.848398
+final  value 94.844359 
+converged
+Method = Neural Networks  and Accuracy =  0.65 
+Method = Random Forest  and Accuracy =  0.6 
+Method = Bagging  and Accuracy =  0.75 
+Method = Boosting  and Accuracy =  0.8 
+Running sample  3 
+Method = Decision Tree  and Accuracy =  0.6 
+Method = SVM  and Accuracy =  0.6 
+Method = Naive Bayes  and Accuracy =  0.7 
+Method = KNN  and Accuracy =  0.55 
+Method = Logistic Regression  and Accuracy =  0.8 
+# weights:  229
+initial  value 158.065115 
+iter  10 value 93.550095
+iter  20 value 93.419910
+iter  30 value 91.722794
+iter  40 value 89.455637
+iter  50 value 89.437390
+iter  60 value 89.394736
+iter  70 value 89.010772
+iter  80 value 88.289935
+iter  90 value 87.218572
+iter 100 value 87.136498
+iter 110 value 87.128389
+iter 120 value 87.088115
+iter 130 value 87.083494
+iter 140 value 87.071240
+iter 150 value 85.962884
+iter 160 value 84.202907
+iter 170 value 81.202149
+iter 180 value 80.649723
+iter 190 value 80.596732
+iter 200 value 80.590922
+iter 210 value 80.590489
+iter 220 value 80.590284
+iter 230 value 80.590209
+iter 240 value 80.590120
+final  value 80.590088 
+converged
+# weights:  229
+initial  value 106.025087 
+iter  10 value 92.483819
+iter  20 value 91.083704
+iter  30 value 89.712192
+iter  40 value 89.709480
+iter  50 value 89.709015
+iter  60 value 89.708906
+iter  60 value 89.708905
+iter  60 value 89.708905
+final  value 89.708905 
+converged
+Method = Neural Networks  and Accuracy =  0.6 
+Method = Random Forest  and Accuracy =  0.65 
+Method = Bagging  and Accuracy =  0.6 
+Method = Boosting  and Accuracy =  0.75 
+Running sample  4 
+Method = Decision Tree  and Accuracy =  0.75 
+Method = SVM  and Accuracy =  0.75 
+Method = Naive Bayes  and Accuracy =  0.65 
+Method = KNN  and Accuracy =  0.6 
+Method = Logistic Regression  and Accuracy =  0.75 
+# weights:  229
+initial  value 118.866018 
+iter  10 value 97.258944
+iter  20 value 96.843046
+iter  30 value 95.662723
+iter  40 value 92.550777
+iter  50 value 88.836919
+iter  60 value 87.688555
+iter  70 value 87.082125
+iter  80 value 86.434852
+iter  90 value 85.295610
+iter 100 value 83.452024
+iter 110 value 83.334021
+iter 120 value 83.311061
+iter 130 value 83.309643
+final  value 83.309129 
+converged
+# weights:  229
+initial  value 135.635016 
+iter  10 value 97.282422
+iter  20 value 97.259140
+iter  30 value 96.594050
+iter  40 value 94.692410
+iter  50 value 94.690083
+iter  60 value 93.656293
+iter  70 value 93.652078
+iter  80 value 93.645568
+iter  90 value 93.643432
+iter 100 value 93.643252
+iter 110 value 93.642841
+final  value 93.642839 
+converged
+Method = Neural Networks  and Accuracy =  0.7 
+Method = Random Forest  and Accuracy =  0.7 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.75 
+Running sample  5 
+Method = Decision Tree  and Accuracy =  0.6 
+Method = SVM  and Accuracy =  0.6 
+Method = Naive Bayes  and Accuracy =  0.5 
+Method = KNN  and Accuracy =  0.4 
+Method = Logistic Regression  and Accuracy =  0.7 
+# weights:  229
+initial  value 106.193287 
+iter  10 value 93.624424
+iter  20 value 93.459408
+iter  30 value 91.269381
+iter  40 value 83.317673
+iter  50 value 82.173340
+iter  60 value 80.695964
+iter  70 value 79.568284
+iter  80 value 78.320758
+iter  90 value 75.275602
+iter 100 value 74.949829
+iter 110 value 73.987325
+iter 120 value 73.337595
+iter 130 value 73.048280
+iter 140 value 73.030630
+iter 150 value 73.007991
+iter 160 value 73.003249
+iter 170 value 73.003191
+final  value 73.003190 
+converged
+# weights:  229
+initial  value 100.582459 
+iter  10 value 93.561836
+iter  20 value 93.462223
+iter  30 value 93.460411
+iter  40 value 93.447394
+iter  50 value 93.446997
+final  value 93.446947 
+converged
+Method = Neural Networks  and Accuracy =  0.6 
+Method = Random Forest  and Accuracy =  0.7 
+Method = Bagging  and Accuracy =  0.65 
+Method = Boosting  and Accuracy =  0.6 
+Running sample  6 
+Method = Decision Tree  and Accuracy =  0.75 
+Method = SVM  and Accuracy =  0.85 
+Method = Naive Bayes  and Accuracy =  0.6 
+Method = KNN  and Accuracy =  0.75 
+Method = Logistic Regression  and Accuracy =  0.85 
+# weights:  229
+initial  value 112.645681 
+iter  10 value 99.554535
+iter  20 value 99.546795
+iter  30 value 99.546361
+iter  40 value 99.545460
+iter  50 value 99.545226
+final  value 99.545220 
+converged
+# weights:  229
+initial  value 114.066098 
+iter  10 value 99.450445
+iter  20 value 99.346663
+final  value 99.345522 
+converged
+Method = Neural Networks  and Accuracy =  0.85 
+Method = Random Forest  and Accuracy =  0.85 
+Error in finalResult[2, 2] : subscript out of bounds
+Execution halted
+Inputting url http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data
+Loading required package: mlbench
+Loading required package: caret
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: methods
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘ipred’
+
+The following object is masked from ‘package:adabag’:
+
+    bagging
+
+Running sample  1 
+Method = Decision Tree  and Accuracy =  0.9473684 
+Method = SVM  and Accuracy =  0.9824561 
+Method = Naive Bayes  and Accuracy =  0.9649123 
+Method = KNN  and Accuracy =  0.8421053 
+Method = Logistic Regression  and Accuracy =  0.9649123 
+# weights:  133
+initial  value 349.924375 
+iter  10 value 339.731212
+iter  20 value 339.726056
+final  value 339.726000 
+converged
+# weights:  133
+initial  value 379.524208 
+iter  10 value 339.739700
+iter  20 value 339.726758
+iter  30 value 339.522300
+iter  40 value 276.843174
+iter  50 value 265.023678
+iter  60 value 259.920543
+iter  70 value 259.044985
+iter  80 value 258.459800
+iter  90 value 253.348379
+iter 100 value 224.418594
+iter 110 value 198.912665
+iter 120 value 190.442342
+iter 130 value 184.743603
+iter 140 value 182.613609
+iter 150 value 152.860189
+iter 160 value 104.230601
+iter 170 value 86.575799
+iter 180 value 82.104108
+iter 190 value 80.399674
+iter 200 value 70.923172
+iter 210 value 57.827555
+iter 220 value 47.791497
+iter 220 value 47.791497
+iter 230 value 46.582940
+iter 240 value 46.385054
+iter 250 value 46.170099
+iter 260 value 38.301065
+iter 270 value 30.790592
+iter 280 value 28.191591
+iter 290 value 27.894229
+iter 300 value 27.862852
+iter 310 value 27.844553
+iter 320 value 27.818358
+iter 330 value 27.788739
+iter 340 value 27.788240
+iter 350 value 27.788215
+iter 360 value 27.788157
+iter 370 value 27.788127
+final  value 27.788126 
+converged
+Method = Neural Networks  and Accuracy =  0.9824561 
+Method = Random Forest  and Accuracy =  0.9824561 
+Method = Bagging  and Accuracy =  0.9824561 
+Method = Boosting  and Accuracy =  0.9824561 
+Running sample  2 
+Method = Decision Tree  and Accuracy =  0.9298246 
+Method = SVM  and Accuracy =  1 
+Method = Naive Bayes  and Accuracy =  0.9298246 
+Method = KNN  and Accuracy =  0.8245614 
+Method = Logistic Regression  and Accuracy =  0.9473684 
+# weights:  133
+initial  value 342.723801 
+iter  10 value 338.728851
+final  value 338.721687 
+converged
+# weights:  133
+initial  value 345.712701 
+iter  10 value 338.729297
+iter  20 value 338.721124
+iter  30 value 336.920067
+iter  40 value 292.215840
+iter  50 value 280.173169
+iter  60 value 272.045723
+iter  70 value 267.754417
+iter  80 value 254.710988
+iter  90 value 235.213824
+iter 100 value 221.641957
+iter 110 value 202.335443
+iter 120 value 197.900196
+iter 130 value 153.922888
+iter 140 value 136.717823
+iter 150 value 128.132999
+iter 160 value 125.191533
+iter 170 value 124.646854
+iter 180 value 108.849428
+iter 190 value 95.341556
+iter 200 value 74.853525
+iter 210 value 54.078126
+iter 220 value 33.407065
+iter 230 value 27.097275
+iter 240 value 26.359447
+iter 250 value 26.318170
+iter 260 value 26.313480
+iter 270 value 26.297688
+iter 280 value 26.284363
+iter 290 value 26.282881
+iter 300 value 26.282825
+final  value 26.282819 
+converged
+Method = Neural Networks  and Accuracy =  0.9649123 
+Method = Random Forest  and Accuracy =  0.9649123 
+Method = Bagging  and Accuracy =  0.9649123 
+Method = Boosting  and Accuracy =  0.9473684 
+Running sample  3 
+Method = Decision Tree  and Accuracy =  0.9122807 
+Method = SVM  and Accuracy =  0.9824561 
+Method = Naive Bayes  and Accuracy =  0.9473684 
+Method = KNN  and Accuracy =  0.9298246 
+Method = Logistic Regression  and Accuracy =  0.8947368 
+# weights:  133
+initial  value 427.615483 
+iter  10 value 335.853727
+iter  20 value 335.779149
+final  value 335.778284 
+converged
+# weights:  133
+initial  value 438.313429 
+iter  10 value 336.620053
+final  value 336.610951 
+converged
+Method = Neural Networks  and Accuracy =  0.5789474 
+Method = Random Forest  and Accuracy =  0.9649123 
+Method = Bagging  and Accuracy =  0.9649123 
+Method = Boosting  and Accuracy =  0.9298246 
+Running sample  4 
+Method = Decision Tree  and Accuracy =  0.9649123 
+Method = SVM  and Accuracy =  0.9649123 
+Method = Naive Bayes  and Accuracy =  0.8947368 
+Method = KNN  and Accuracy =  0.8596491 
+Method = Logistic Regression  and Accuracy =  0.9298246 
+# weights:  133
+initial  value 337.780636 
+iter  10 value 337.154567
+iter  20 value 337.151745
+iter  30 value 337.150987
+iter  40 value 335.461413
+iter  50 value 312.154571
+iter  60 value 277.693801
+iter  70 value 267.118017
+iter  80 value 266.981730
+iter  90 value 256.165789
+iter 100 value 246.223394
+iter 110 value 243.566714
+iter 120 value 220.146842
+iter 130 value 209.446364
+iter 140 value 187.445979
+iter 150 value 180.710758
+iter 160 value 176.929414
+iter 170 value 172.671070
+iter 180 value 139.599767
+iter 190 value 120.485554
+iter 200 value 109.591660
+iter 210 value 101.981387
+iter 220 value 92.618646
+iter 230 value 91.007681
+iter 240 value 86.288532
+iter 250 value 84.133915
+iter 260 value 79.392316
+iter 270 value 78.520719
+iter 280 value 72.215697
+iter 290 value 67.174044
+iter 300 value 48.954052
+iter 310 value 38.556174
+iter 320 value 37.513546
+iter 330 value 37.019463
+iter 340 value 36.961188
+iter 350 value 36.825834
+iter 360 value 36.699717
+iter 370 value 36.477943
+iter 380 value 35.990182
+iter 390 value 35.299227
+iter 400 value 34.795204
+iter 410 value 34.172228
+iter 420 value 33.833802
+iter 430 value 33.558249
+iter 440 value 33.515496
+iter 450 value 33.492398
+iter 460 value 33.342974
+iter 470 value 33.179109
+iter 480 value 32.844659
+iter 490 value 32.769871
+iter 490 value 32.769871
+iter 500 value 32.742903
+iter 510 value 32.731758
+iter 510 value 32.731758
+final  value 32.731550 
+converged
+# weights:  133
+initial  value 341.655631 
+iter  10 value 337.156688
+iter  20 value 337.151340
+iter  30 value 297.435740
+iter  40 value 208.749690
+iter  50 value 198.976607
+iter  60 value 184.359573
+iter  70 value 128.668940
+iter  80 value 107.876957
+iter  90 value 103.232503
+iter 100 value 99.380922
+iter 110 value 80.603542
+iter 120 value 75.257612
+iter 130 value 75.110663
+iter 140 value 74.721037
+iter 150 value 74.201754
+iter 160 value 71.835224
+iter 170 value 69.142360
+iter 180 value 64.264457
+iter 190 value 59.996532
+iter 200 value 56.176168
+iter 210 value 52.374060
+iter 220 value 48.055613
+iter 230 value 45.737072
+iter 240 value 44.857537
+iter 250 value 42.312765
+iter 260 value 36.596558
+iter 270 value 28.632899
+iter 280 value 26.120017
+iter 290 value 25.927079
+iter 300 value 25.063802
+iter 310 value 24.454186
+iter 320 value 24.397689
+iter 330 value 24.394473
+iter 340 value 24.343113
+iter 350 value 24.227579
+final  value 24.206552 
+converged
+Method = Neural Networks  and Accuracy =  0.9122807 
+Method = Random Forest  and Accuracy =  0.9824561 
+Method = Bagging  and Accuracy =  0.9298246 
+Method = Boosting  and Accuracy =  0.9649123 
+Running sample  5 
+Method = Decision Tree  and Accuracy =  0.9824561 
+Method = SVM  and Accuracy =  1 
+Method = Naive Bayes  and Accuracy =  0.9298246 
+Method = KNN  and Accuracy =  0.8596491 
+Method = Logistic Regression  and Accuracy =  0.9649123 
+# weights:  133
+initial  value 353.236336 
+iter  10 value 337.581988
+iter  20 value 337.524630
+iter  30 value 337.497008
+iter  40 value 318.642413
+iter  50 value 241.231793
+iter  60 value 192.224485
+iter  70 value 138.796494
+iter  80 value 126.428549
+iter  90 value 125.313795
+iter 100 value 125.185415
+final  value 125.171196 
+converged
+# weights:  133
+initial  value 378.301280 
+iter  10 value 339.232673
+iter  20 value 339.227663
+iter  30 value 339.227271
+iter  40 value 334.252381
+iter  50 value 333.932079
+iter  60 value 328.298393
+iter  70 value 321.360758
+iter  80 value 307.376142
+iter  90 value 248.894921
+iter 100 value 216.337262
+iter 110 value 205.173364
+iter 110 value 205.173363
+iter 120 value 199.159804
+iter 130 value 196.216146
+iter 140 value 184.613202
+iter 150 value 166.171260
+iter 160 value 159.136446
+iter 170 value 144.963729
+iter 180 value 140.116251
+iter 190 value 138.229164
+iter 200 value 134.353281
+iter 210 value 134.090425
+iter 220 value 133.871532
+iter 230 value 133.518364
+iter 240 value 133.306611
+iter 250 value 133.299166
+iter 260 value 133.298901
+iter 260 value 133.298901
+final  value 133.298901 
+converged
+Method = Neural Networks  and Accuracy =  0.8245614 
+Method = Random Forest  and Accuracy =  0.9473684 
+Method = Bagging  and Accuracy =  0.9649123 
+Method = Boosting  and Accuracy =  0.9473684 
+Running sample  6 
+Method = Decision Tree  and Accuracy =  0.9824561 
+Method = SVM  and Accuracy =  1 
+Method = Naive Bayes  and Accuracy =  0.9649123 
+Method = KNN  and Accuracy =  0.8245614 
+Method = Logistic Regression  and Accuracy =  0.9298246 
+# weights:  133
+initial  value 355.750975 
+iter  10 value 339.728965
+iter  20 value 339.726202
+iter  20 value 339.726200
+iter  20 value 339.726200
+final  value 339.726200 
+converged
+# weights:  133
+initial  value 468.962020 
+iter  10 value 339.735545
+iter  20 value 339.726106
+iter  30 value 339.554541
+iter  40 value 314.914954
+iter  50 value 280.893528
+iter  60 value 257.689738
+iter  70 value 219.687211
+iter  80 value 214.452761
+iter  90 value 213.399257
+iter 100 value 170.648226
+iter 110 value 143.762872
+iter 120 value 139.076113
+iter 130 value 136.928314
+iter 140 value 135.822859
+iter 150 value 127.222528
+iter 160 value 124.744325
+iter 170 value 124.573948
+iter 180 value 123.632139
+iter 190 value 100.483900
+iter 200 value 83.956928
+iter 210 value 72.813173
+iter 220 value 70.701963
+iter 230 value 63.918233
+iter 240 value 50.285174
+iter 250 value 34.163931
+iter 260 value 31.564687
+iter 270 value 31.449863
+iter 280 value 30.633279
+iter 290 value 30.316841
+iter 300 value 29.820794
+iter 310 value 29.496237
+iter 320 value 29.140111
+iter 330 value 28.975137
+iter 340 value 28.745233
+iter 350 value 28.694675
+iter 360 value 28.124952
+iter 370 value 24.464465
+iter 380 value 23.352371
+iter 390 value 23.190747
+iter 400 value 23.176359
+iter 410 value 23.176118
+iter 420 value 23.176106
+final  value 23.176105 
+converged
+Method = Neural Networks  and Accuracy =  0.9649123 
+Method = Random Forest  and Accuracy =  0.9824561 
+Method = Bagging  and Accuracy =  0.9824561 
+Method = Boosting  and Accuracy =  1 
+Running sample  7 
+Method = Decision Tree  and Accuracy =  0.9298246 
+Method = SVM  and Accuracy =  1 
+Method = Naive Bayes  and Accuracy =  0.9473684 
+Method = KNN  and Accuracy =  0.9122807 
+Method = Logistic Regression  and Accuracy =  0.9473684 
+# weights:  133
+initial  value 340.524376 
+iter  10 value 340.222532
+iter  20 value 339.882942
+iter  30 value 339.451860
+iter  40 value 338.407614
+iter  50 value 338.366529
+iter  60 value 335.599051
+iter  70 value 333.614234
+iter  80 value 328.573270
+iter  90 value 255.574801
+iter 100 value 244.600211
+iter 110 value 235.394424
+iter 120 value 234.227197
+iter 130 value 221.030932
+iter 140 value 211.257099
+iter 150 value 209.677345
+iter 160 value 209.621758
+iter 170 value 207.498488
+iter 180 value 194.660780
+iter 190 value 169.226004
+iter 200 value 164.689053
+iter 210 value 148.991969
+iter 220 value 144.074091
+iter 230 value 140.817879
+iter 240 value 135.564642
+iter 250 value 134.233476
+iter 260 value 133.573246
+iter 270 value 133.525057
+iter 270 value 133.525056
+final  value 133.525056 
+converged
+# weights:  133
+initial  value 518.847069 
+iter  10 value 340.222487
+iter  20 value 340.171811
+iter  30 value 339.406877
+iter  40 value 339.405521
+final  value 339.405427 
+converged
+Method = Neural Networks  and Accuracy =  0.7017544 
+Method = Random Forest  and Accuracy =  0.9649123 
+Method = Bagging  and Accuracy =  0.9298246 
+Method = Boosting  and Accuracy =  1 
+Running sample  8 
+Method = Decision Tree  and Accuracy =  0.9824561 
+Method = SVM  and Accuracy =  0.9824561 
+Method = Naive Bayes  and Accuracy =  0.9824561 
+Method = KNN  and Accuracy =  0.8421053 
+Method = Logistic Regression  and Accuracy =  0.9649123 
+# weights:  133
+initial  value 358.959766 
+iter  10 value 339.228782
+iter  20 value 339.212392
+iter  30 value 285.546791
+iter  40 value 264.030364
+iter  50 value 262.678596
+iter  60 value 259.876395
+iter  70 value 259.749815
+iter  80 value 259.740816
+final  value 259.740084 
+converged
+# weights:  133
+initial  value 354.781093 
+iter  10 value 339.234402
+iter  20 value 338.328617
+iter  30 value 218.280051
+iter  40 value 160.922899
+iter  50 value 138.828344
+iter  60 value 125.389582
+iter  70 value 104.595699
+iter  80 value 97.960256
+iter  90 value 69.082459
+iter 100 value 60.071879
+iter 110 value 49.602750
+iter 120 value 43.924518
+iter 130 value 43.422591
+iter 140 value 41.502320
+iter 150 value 41.307436
+iter 160 value 40.470675
+iter 170 value 37.553229
+iter 180 value 29.826064
+iter 190 value 26.820718
+iter 200 value 26.616861
+iter 210 value 26.528596
+iter 220 value 26.489084
+iter 230 value 26.473586
+iter 240 value 26.305285
+iter 250 value 25.943189
+iter 260 value 25.918384
+iter 270 value 25.917209
+iter 280 value 25.916608
+iter 290 value 25.915874
+iter 300 value 25.911753
+final  value 25.910993 
+converged
+Method = Neural Networks  and Accuracy =  0.9473684 
+Method = Random Forest  and Accuracy =  0.9824561 
+Method = Bagging  and Accuracy =  0.9649123 
+Method = Boosting  and Accuracy =  0.9824561 
+Running sample  9 
+Method = Decision Tree  and Accuracy =  0.9298246 
+Method = SVM  and Accuracy =  0.9824561 
+Method = Naive Bayes  and Accuracy =  0.9298246 
+Method = KNN  and Accuracy =  0.8245614 
+Method = Logistic Regression  and Accuracy =  0.9649123 
+# weights:  133
+initial  value 342.924104 
+iter  10 value 339.727822
+iter  20 value 339.725697
+iter  30 value 324.293905
+iter  40 value 318.465794
+final  value 318.410390 
+converged
+# weights:  133
+initial  value 340.088437 
+iter  10 value 339.728596
+final  value 339.726192 
+converged
+Method = Neural Networks  and Accuracy =  0.6842105 
+Method = Random Forest  and Accuracy =  0.9298246 
+Method = Bagging  and Accuracy =  0.9298246 
+Method = Boosting  and Accuracy =  0.9122807 
+Running sample  10 
+Method = Decision Tree  and Accuracy =  0.9473684 
+Method = SVM  and Accuracy =  0.9649123 
+Method = Naive Bayes  and Accuracy =  0.9473684 
+Method = KNN  and Accuracy =  0.877193 
+Method = Logistic Regression  and Accuracy =  0.9649123 
+# weights:  133
+initial  value 360.992245 
+iter  10 value 337.568246
+iter  20 value 337.481664
+final  value 337.481194 
+converged
+# weights:  133
+initial  value 345.537870 
+iter  10 value 338.723025
+final  value 338.723013 
+converged
+Method = Neural Networks  and Accuracy =  0.6491228 
+Method = Random Forest  and Accuracy =  0.9473684 
+Method = Bagging  and Accuracy =  0.9473684 
+Method = Boosting  and Accuracy =  0.9649123 
+Inputting url http://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data
+Loading required package: mlbench
+Loading required package: caret
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: methods
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘ipred’
+
+The following object is masked from ‘package:adabag’:
+
+    bagging
+
+Running sample  1 
+Method = Decision Tree  and Accuracy =  0.9166667 
+Method = SVM  and Accuracy =  0.9166667 
+Method = Naive Bayes  and Accuracy =  0.8333333 
+Method = KNN  and Accuracy =  0.8055556 
+Method = Logistic Regression  and Accuracy =  0.8888889 
+# weights:  145
+initial  value 277.424614 
+iter  10 value 83.495651
+iter  20 value 47.089391
+iter  30 value 30.139108
+iter  40 value 24.080641
+iter  50 value 21.322599
+iter  60 value 18.163995
+iter  70 value 14.495956
+iter  80 value 12.425833
+iter  90 value 11.311578
+iter 100 value 10.931518
+iter 110 value 10.832854
+iter 120 value 10.812551
+iter 130 value 10.803354
+iter 140 value 10.800167
+iter 150 value 10.795484
+iter 160 value 10.786005
+iter 170 value 10.776889
+iter 180 value 10.771106
+iter 190 value 10.769025
+iter 200 value 10.767933
+iter 210 value 10.767140
+iter 220 value 10.760628
+iter 230 value 10.747766
+iter 240 value 10.738833
+iter 250 value 10.734022
+iter 260 value 10.732318
+iter 270 value 10.731915
+iter 280 value 10.731834
+iter 290 value 10.731813
+iter 300 value 10.731806
+final  value 10.731804 
+converged
+# weights:  145
+initial  value 271.107875 
+iter  10 value 59.137169
+iter  20 value 16.627631
+iter  30 value 12.155602
+iter  40 value 11.055441
+iter  50 value 10.789282
+iter  60 value 10.633058
+iter  70 value 10.408773
+iter  80 value 10.284075
+iter  90 value 10.191954
+iter 100 value 9.998413
+iter 110 value 9.912085
+iter 120 value 9.817243
+iter 130 value 9.685431
+iter 140 value 9.500254
+iter 150 value 9.464233
+iter 160 value 9.454946
+iter 170 value 9.449290
+iter 180 value 9.446779
+iter 190 value 9.436519
+iter 200 value 9.432831
+iter 210 value 9.431897
+iter 220 value 9.430691
+iter 230 value 9.418123
+iter 240 value 9.409314
+iter 250 value 9.408283
+iter 260 value 9.408250
+final  value 9.408249 
+converged
+Method = Neural Networks  and Accuracy =  0.9166667 
+Method = Random Forest  and Accuracy =  0.9444444 
+Method = Bagging  and Accuracy =  0.9444444 
+Method = Boosting  and Accuracy =  0.8611111 
+Running sample  2 
+Method = Decision Tree  and Accuracy =  0.8611111 
+Method = SVM  and Accuracy =  0.8888889 
+Method = Naive Bayes  and Accuracy =  0.8055556 
+Method = KNN  and Accuracy =  0.7777778 
+Method = Logistic Regression  and Accuracy =  0.75 
+# weights:  145
+initial  value 254.226463 
+iter  10 value 82.157655
+iter  20 value 58.743610
+iter  30 value 48.741428
+iter  40 value 37.443917
+iter  50 value 23.839251
+iter  60 value 15.060356
+iter  70 value 12.387133
+iter  80 value 11.322013
+iter  90 value 10.610692
+iter 100 value 10.119045
+iter 110 value 9.950543
+iter 120 value 9.893185
+iter 130 value 9.812248
+iter 140 value 9.777645
+iter 150 value 9.755182
+iter 160 value 9.744064
+iter 170 value 9.740396
+iter 180 value 9.737408
+iter 190 value 9.734867
+iter 200 value 9.733801
+iter 210 value 9.733320
+iter 220 value 9.732972
+iter 230 value 9.732874
+iter 240 value 9.732843
+iter 250 value 9.732827
+iter 260 value 9.732821
+final  value 9.732819 
+converged
+# weights:  145
+initial  value 223.645006 
+iter  10 value 71.236252
+iter  20 value 35.786307
+iter  30 value 21.389592
+iter  40 value 14.462686
+iter  50 value 11.982255
+iter  60 value 10.556742
+iter  70 value 9.922422
+iter  80 value 9.523497
+iter  90 value 9.151678
+iter 100 value 9.091456
+iter 110 value 9.088039
+iter 120 value 9.087838
+iter 130 value 9.087609
+iter 140 value 9.087224
+iter 150 value 9.072508
+iter 160 value 9.042726
+iter 170 value 8.953232
+iter 180 value 8.894563
+iter 190 value 8.885428
+iter 200 value 8.884404
+iter 210 value 8.884355
+final  value 8.884352 
+converged
+Method = Neural Networks  and Accuracy =  0.7777778 
+Method = Random Forest  and Accuracy =  0.9444444 
+Method = Bagging  and Accuracy =  0.9166667 
+Method = Boosting  and Accuracy =  0.8611111 
+Running sample  3 
+Method = Decision Tree  and Accuracy =  0.9722222 
+Method = SVM  and Accuracy =  0.9722222 
+Method = Naive Bayes  and Accuracy =  0.9444444 
+Method = KNN  and Accuracy =  0.8888889 
+Method = Logistic Regression  and Accuracy =  0.8055556 
+# weights:  145
+initial  value 238.998960 
+iter  10 value 63.500169
+iter  20 value 32.435474
+iter  30 value 21.260091
+iter  40 value 16.253470
+iter  50 value 12.780587
+iter  60 value 11.694187
+iter  70 value 10.868628
+iter  80 value 10.329170
+iter  90 value 10.112784
+iter 100 value 10.018750
+iter 110 value 9.975136
+iter 120 value 9.968010
+iter 130 value 9.954696
+iter 140 value 9.928175
+iter 150 value 9.924943
+iter 160 value 9.920741
+iter 170 value 9.919565
+iter 180 value 9.919404
+iter 190 value 9.919302
+iter 200 value 9.919141
+iter 210 value 9.916061
+iter 220 value 9.913935
+iter 230 value 9.913523
+iter 240 value 9.913407
+iter 250 value 9.913374
+iter 260 value 9.913209
+iter 270 value 9.910774
+iter 280 value 9.909976
+iter 290 value 9.903538
+iter 300 value 9.896702
+iter 310 value 9.896066
+iter 320 value 9.896009
+final  value 9.896008 
+converged
+# weights:  145
+initial  value 204.285969 
+iter  10 value 56.069055
+iter  20 value 24.790298
+iter  30 value 17.215037
+iter  40 value 14.342400
+iter  50 value 12.612194
+iter  60 value 11.458120
+iter  70 value 11.103321
+iter  80 value 10.873413
+iter  90 value 10.745039
+iter 100 value 10.708732
+iter 110 value 10.696035
+iter 120 value 10.670993
+iter 130 value 10.599777
+iter 140 value 10.523491
+iter 150 value 10.484002
+iter 160 value 10.461575
+iter 170 value 10.369771
+iter 180 value 10.334002
+iter 190 value 10.322298
+iter 200 value 10.309646
+iter 210 value 10.301369
+iter 220 value 10.298924
+iter 230 value 10.298327
+iter 240 value 10.298276
+iter 250 value 10.298270
+final  value 10.298270 
+converged
+Method = Neural Networks  and Accuracy =  0.8888889 
+Method = Random Forest  and Accuracy =  0.9722222 
+Method = Bagging  and Accuracy =  0.9722222 
+Method = Boosting  and Accuracy =  0.9166667 
+Running sample  4 
+Method = Decision Tree  and Accuracy =  0.8611111 
+Method = SVM  and Accuracy =  0.9166667 
+Method = Naive Bayes  and Accuracy =  0.8055556 
+Method = KNN  and Accuracy =  0.8611111 
+Method = Logistic Regression  and Accuracy =  0.8611111 
+# weights:  145
+initial  value 210.370060 
+iter  10 value 72.334000
+iter  20 value 50.011427
+iter  30 value 32.181792
+iter  40 value 20.355097
+iter  50 value 16.055333
+iter  60 value 14.662574
+iter  70 value 13.504536
+iter  80 value 12.280674
+iter  90 value 11.879906
+iter 100 value 11.792577
+iter 110 value 11.777729
+iter 120 value 11.721678
+iter 130 value 11.661672
+iter 140 value 11.567780
+iter 150 value 11.356541
+iter 160 value 11.270102
+iter 170 value 11.223641
+iter 180 value 11.173550
+iter 190 value 11.127415
+iter 200 value 11.084016
+iter 210 value 11.080494
+iter 220 value 11.075734
+iter 230 value 11.067015
+iter 240 value 11.025600
+iter 250 value 11.021720
+iter 260 value 11.020849
+iter 270 value 11.020734
+iter 280 value 11.020727
+final  value 11.020727 
+converged
+# weights:  145
+initial  value 207.223575 
+iter  10 value 53.608302
+iter  20 value 24.865054
+iter  30 value 15.115294
+iter  40 value 12.418709
+iter  50 value 11.864508
+iter  60 value 11.619755
+iter  70 value 11.528939
+iter  80 value 11.300167
+iter  90 value 11.084551
+iter 100 value 11.016787
+iter 110 value 10.959780
+iter 120 value 10.929647
+iter 130 value 10.915488
+iter 140 value 10.906427
+iter 150 value 10.902924
+iter 160 value 10.900459
+iter 170 value 10.896283
+iter 180 value 10.805521
+iter 190 value 10.736204
+iter 200 value 10.676931
+iter 210 value 10.666892
+iter 220 value 10.562852
+iter 230 value 10.534220
+iter 240 value 10.531921
+iter 250 value 10.531810
+iter 260 value 10.531801
+final  value 10.531800 
+converged
+Method = Neural Networks  and Accuracy =  0.8888889 
+Method = Random Forest  and Accuracy =  0.8888889 
+Method = Bagging  and Accuracy =  0.8888889 
+Method = Boosting  and Accuracy =  0.9166667 
+Running sample  5 
+Method = Decision Tree  and Accuracy =  0.8611111 
+Method = SVM  and Accuracy =  0.8611111 
+Method = Naive Bayes  and Accuracy =  0.8611111 
+Method = KNN  and Accuracy =  0.7777778 
+Method = Logistic Regression  and Accuracy =  0.7777778 
+# weights:  145
+initial  value 218.709659 
+iter  10 value 48.133465
+iter  20 value 18.385574
+iter  30 value 11.800848
+iter  40 value 10.769715
+iter  50 value 10.348580
+iter  60 value 10.053731
+iter  70 value 9.962703
+iter  80 value 9.931254
+iter  90 value 9.889335
+iter 100 value 9.836075
+iter 110 value 9.311335
+iter 120 value 8.856341
+iter 130 value 8.736840
+iter 140 value 8.720477
+iter 150 value 8.717249
+iter 160 value 8.713794
+iter 170 value 8.708826
+iter 180 value 8.700953
+iter 190 value 8.692473
+iter 200 value 8.424265
+iter 210 value 8.003156
+iter 220 value 7.746428
+iter 230 value 7.558060
+iter 240 value 7.462815
+iter 250 value 7.448315
+iter 260 value 7.446748
+iter 270 value 7.446572
+iter 280 value 7.446546
+iter 290 value 7.446539
+final  value 7.446538 
+converged
+# weights:  145
+initial  value 256.904797 
+iter  10 value 85.173170
+iter  20 value 55.824374
+iter  30 value 41.780226
+iter  40 value 34.463751
+iter  50 value 29.905655
+iter  60 value 15.375100
+iter  70 value 9.753854
+iter  80 value 8.459068
+iter  90 value 8.229627
+iter 100 value 7.718394
+iter 110 value 7.419236
+iter 120 value 7.195079
+iter 130 value 7.056621
+iter 140 value 6.902557
+iter 150 value 6.856601
+iter 160 value 6.833871
+iter 170 value 6.814926
+iter 180 value 6.804704
+iter 190 value 6.796495
+iter 200 value 6.792760
+iter 210 value 6.791258
+iter 220 value 6.790366
+iter 230 value 6.789573
+iter 240 value 6.789035
+iter 250 value 6.788676
+iter 260 value 6.788576
+iter 270 value 6.788487
+iter 280 value 6.788439
+iter 290 value 6.788429
+iter 300 value 6.788424
+iter 310 value 6.788420
+iter 320 value 6.788418
+final  value 6.788418 
+converged
+Method = Neural Networks  and Accuracy =  0.8333333 
+Method = Random Forest  and Accuracy =  0.8611111 
+Method = Bagging  and Accuracy =  0.8055556 
+Method = Boosting  and Accuracy =  0.8888889 
+Running sample  6 
+Method = Decision Tree  and Accuracy =  0.8333333 
+Method = SVM  and Accuracy =  0.8888889 
+Method = Naive Bayes  and Accuracy =  0.8333333 
+Method = KNN  and Accuracy =  0.7777778 
+Method = Logistic Regression  and Accuracy =  0.8888889 
+# weights:  145
+initial  value 240.015195 
+iter  10 value 99.079060
+iter  20 value 72.245234
+iter  30 value 41.137506
+iter  40 value 27.041451
+iter  50 value 18.022407
+iter  60 value 13.798303
+iter  70 value 12.520836
+iter  80 value 11.659521
+iter  90 value 10.895177
+iter 100 value 10.403893
+iter 110 value 10.020917
+iter 120 value 9.853195
+iter 130 value 9.725150
+iter 140 value 9.679720
+iter 150 value 9.660574
+iter 160 value 9.620205
+iter 170 value 9.549848
+iter 180 value 9.510086
+iter 190 value 9.498354
+iter 200 value 9.495982
+iter 210 value 9.495445
+iter 220 value 9.495397
+final  value 9.495394 
+converged
+# weights:  145
+initial  value 197.904573 
+iter  10 value 45.809768
+iter  20 value 17.291188
+iter  30 value 12.627243
+iter  40 value 11.054547
+iter  50 value 10.505965
+iter  60 value 10.160644
+iter  70 value 9.999250
+iter  80 value 9.927835
+iter  90 value 9.750677
+iter 100 value 9.701188
+iter 110 value 9.685326
+iter 120 value 9.675642
+iter 130 value 9.663076
+iter 140 value 9.655565
+iter 150 value 9.653256
+iter 160 value 9.652863
+iter 170 value 9.652821
+final  value 9.652818 
+converged
+Method = Neural Networks  and Accuracy =  0.8333333 
+Method = Random Forest  and Accuracy =  0.9166667 
+Method = Bagging  and Accuracy =  0.8888889 
+Method = Boosting  and Accuracy =  0.8055556 
+Running sample  7 
+Method = Decision Tree  and Accuracy =  0.8333333 
+Method = SVM  and Accuracy =  0.9722222 
+Method = Naive Bayes  and Accuracy =  0.9166667 
+Method = KNN  and Accuracy =  0.8888889 
+Method = Logistic Regression  and Accuracy =  0.8333333 
+# weights:  145
+initial  value 208.513351 
+iter  10 value 79.479227
+iter  20 value 53.421405
+iter  30 value 43.602853
+iter  40 value 36.910535
+iter  50 value 25.991400
+iter  60 value 23.650836
+iter  70 value 18.409745
+iter  80 value 14.376986
+iter  90 value 12.902509
+iter 100 value 12.501874
+iter 110 value 12.419475
+iter 120 value 12.408787
+iter 130 value 12.407121
+iter 140 value 12.404286
+iter 150 value 12.320092
+iter 160 value 12.280089
+iter 170 value 12.276979
+iter 180 value 12.268410
+iter 190 value 12.260663
+iter 200 value 12.259567
+iter 210 value 12.257796
+iter 220 value 12.257338
+iter 230 value 12.257269
+iter 240 value 12.257255
+final  value 12.257254 
+converged
+# weights:  145
+initial  value 256.842202 
+iter  10 value 49.500034
+iter  20 value 29.862026
+iter  30 value 16.748917
+iter  40 value 12.007973
+iter  50 value 10.565566
+iter  60 value 10.006857
+iter  70 value 9.610760
+iter  80 value 9.470091
+iter  90 value 9.450808
+iter 100 value 9.444986
+iter 110 value 9.443787
+iter 120 value 9.443438
+iter 130 value 9.442807
+iter 140 value 9.442220
+iter 150 value 9.442106
+iter 160 value 9.442092
+final  value 9.442091 
+converged
+Method = Neural Networks  and Accuracy =  0.8055556 
+Method = Random Forest  and Accuracy =  0.9444444 
+Method = Bagging  and Accuracy =  0.8888889 
+Method = Boosting  and Accuracy =  0.9166667 
+Running sample  8 
+Method = Decision Tree  and Accuracy =  0.8611111 
+Method = SVM  and Accuracy =  0.9722222 
+Method = Naive Bayes  and Accuracy =  0.9166667 
+Method = KNN  and Accuracy =  0.8611111 
+Method = Logistic Regression  and Accuracy =  0.8888889 
+# weights:  145
+initial  value 218.564462 
+iter  10 value 80.897324
+iter  20 value 54.138022
+iter  30 value 31.246725
+iter  40 value 22.731812
+iter  50 value 18.554944
+iter  60 value 13.307184
+iter  70 value 11.723690
+iter  80 value 10.791982
+iter  90 value 10.563563
+iter 100 value 10.468897
+iter 110 value 10.425410
+iter 120 value 10.411088
+iter 130 value 10.400028
+iter 140 value 10.384398
+iter 150 value 10.364410
+iter 160 value 10.290915
+iter 170 value 10.257492
+iter 180 value 10.249650
+iter 190 value 10.243733
+iter 200 value 10.238104
+iter 210 value 10.195064
+iter 220 value 10.077793
+iter 230 value 10.067000
+iter 240 value 10.065287
+iter 250 value 10.065053
+iter 260 value 10.065044
+final  value 10.065043 
+converged
+# weights:  145
+initial  value 288.147940 
+iter  10 value 54.658176
+iter  20 value 28.371147
+iter  30 value 15.839753
+iter  40 value 12.285680
+iter  50 value 10.353072
+iter  60 value 9.781977
+iter  70 value 9.692905
+iter  80 value 9.677296
+iter  90 value 9.675992
+iter 100 value 9.675937
+final  value 9.675935 
+converged
+Method = Neural Networks  and Accuracy =  0.8611111 
+Method = Random Forest  and Accuracy =  0.9444444 
+Method = Bagging  and Accuracy =  0.9166667 
+Method = Boosting  and Accuracy =  0.9722222 
+Running sample  9 
+Method = Decision Tree  and Accuracy =  1 
+Method = SVM  and Accuracy =  1 
+Method = Naive Bayes  and Accuracy =  0.9722222 
+Method = KNN  and Accuracy =  0.9166667 
+Method = Logistic Regression  and Accuracy =  0.8333333 
+# weights:  145
+initial  value 218.638029 
+iter  10 value 52.692411
+iter  20 value 37.864244
+iter  30 value 32.397601
+iter  40 value 19.331292
+iter  50 value 12.607862
+iter  60 value 11.235267
+iter  70 value 10.992488
+iter  80 value 10.817760
+iter  90 value 10.754570
+iter 100 value 10.724149
+iter 110 value 10.719399
+iter 120 value 10.718041
+iter 130 value 10.716786
+iter 140 value 10.716062
+iter 150 value 10.715909
+iter 160 value 10.715878
+iter 170 value 10.715867
+iter 180 value 10.715864
+final  value 10.715863 
+converged
+# weights:  145
+initial  value 208.687325 
+iter  10 value 68.028911
+iter  20 value 35.465743
+iter  30 value 18.236230
+iter  40 value 14.409740
+iter  50 value 12.886326
+iter  60 value 12.332460
+iter  70 value 11.989997
+iter  80 value 11.584070
+iter  90 value 11.177387
+iter 100 value 11.105989
+iter 110 value 10.990466
+iter 120 value 10.874633
+iter 130 value 10.754715
+iter 140 value 10.625325
+iter 150 value 10.560492
+iter 160 value 10.519943
+iter 170 value 10.505453
+iter 180 value 10.497700
+iter 190 value 10.495832
+iter 200 value 10.495394
+iter 210 value 10.495342
+iter 220 value 10.495329
+iter 230 value 10.495324
+final  value 10.495323 
+converged
+Method = Neural Networks  and Accuracy =  0.8333333 
+Method = Random Forest  and Accuracy =  1 
+Method = Bagging  and Accuracy =  0.9722222 
+Method = Boosting  and Accuracy =  0.9444444 
+Running sample  10 
+Method = Decision Tree  and Accuracy =  0.8888889 
+Method = SVM  and Accuracy =  0.9166667 
+Method = Naive Bayes  and Accuracy =  0.9166667 
+Method = KNN  and Accuracy =  0.7777778 
+Method = Logistic Regression  and Accuracy =  0.8333333 
+# weights:  145
+initial  value 205.204180 
+iter  10 value 56.672956
+iter  20 value 24.621231
+iter  30 value 17.737435
+iter  40 value 13.561595
+iter  50 value 12.529818
+iter  60 value 11.967005
+iter  70 value 11.369966
+iter  80 value 11.098753
+iter  90 value 10.959312
+iter 100 value 10.846930
+iter 110 value 10.531707
+iter 120 value 10.441544
+iter 130 value 10.364815
+iter 140 value 10.298335
+iter 150 value 10.126125
+iter 160 value 10.035249
+iter 170 value 10.007060
+iter 180 value 9.995086
+iter 190 value 9.983921
+iter 200 value 9.979513
+iter 210 value 9.978761
+iter 220 value 9.978580
+iter 230 value 9.978556
+final  value 9.978555 
+converged
+# weights:  145
+initial  value 236.982941 
+iter  10 value 78.395522
+iter  20 value 46.848852
+iter  30 value 32.822665
+iter  40 value 21.565719
+iter  50 value 17.364389
+iter  60 value 15.024548
+iter  70 value 13.249685
+iter  80 value 12.274698
+iter  90 value 11.575966
+iter 100 value 11.268472
+iter 110 value 11.012867
+iter 120 value 10.895739
+iter 130 value 10.795650
+iter 140 value 10.748405
+iter 150 value 10.738551
+iter 160 value 10.638355
+iter 170 value 10.546470
+iter 180 value 10.356047
+iter 190 value 10.272836
+iter 200 value 10.257354
+iter 210 value 10.249605
+iter 220 value 10.243399
+iter 230 value 10.158011
+iter 240 value 10.083399
+iter 250 value 10.075121
+iter 260 value 10.066226
+iter 270 value 10.060510
+iter 280 value 10.050490
+iter 290 value 10.049921
+iter 300 value 10.049900
+final  value 10.049898 
+converged
+Method = Neural Networks  and Accuracy =  0.8333333 
+Method = Random Forest  and Accuracy =  0.9166667 
+Method = Bagging  and Accuracy =  0.9444444 
+Method = Boosting  and Accuracy =  0.9166667 
