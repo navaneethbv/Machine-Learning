@@ -9,3 +9,4 @@ paste("The correlation between attribute5 and the class variable is: ",cor(diabe
 paste("The correlation between attribute6 and the class variable is: ",cor(diabetes_data$V6,diabetes_data$V9),sep="")
 paste("The correlation between attribute7 and the class variable is: ",cor(diabetes_data$V7,diabetes_data$V9),sep="")
 paste("The correlation between attribute8 and the class variable is: ",cor(diabetes_data$V8,diabetes_data$V9),sep="")
+ 
