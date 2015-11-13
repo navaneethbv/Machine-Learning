@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * @author Navaneeth.Rao 
  * 
  */
-public class Heuristic {
+public class Heuristic { 
 	/**
 	 * Computes the variance impurity of a data set
 	 *
