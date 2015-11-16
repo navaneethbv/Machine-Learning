@@ -5,7 +5,7 @@ str(dataset1)
 i = 1
 sum = 0
 count = 0
-kernels = c('','linear','polynomial','radial','sigmoid')
+kernels = c('','linear','polynomial','radial','sigmoid') 
 flag =0
 for(kernel1 in kernels){ 
   for (i  in 1:10)
