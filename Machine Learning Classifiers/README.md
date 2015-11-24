@@ -1,5 +1,3 @@
-This Project was done by Navaneeth Venugopala Rao
-Net ID - nbv140130
 
 1. To run the R programs, use the saved CSV file in the same path as rest of the R files or specify the absolute path.
 2. Histograms and Bar Plots are generated in the form of PDF's.
