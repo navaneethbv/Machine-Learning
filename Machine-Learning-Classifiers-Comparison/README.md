@@ -1,11 +1,6 @@
 # Machine-Learning-Classifiers
 Implementation of 9 Machine Learning Classifiers on various Data sets in R
 
-
-This Assignment was done by -
-Navaneeth Venugopala Rao
-NET ID - nbv140130
-
 1. Before you execute the program, install the following packages -
 rpart,e1071,class,mlbench,ada,randomForest,neuralnet,adabag
 
