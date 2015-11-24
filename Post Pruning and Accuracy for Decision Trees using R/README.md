@@ -1,7 +1,3 @@
-This assignment was done by -
-Navaneeth Venugopala Rao
-Net ID - nbv140130 
-
 1. To execute this assignment, copy the R files into the R studio package.
 2. Use select all and run the code.
 3. Observe the output. (Note - The user can instead execute the lines one after the other and observe the graph before pruning, summary of the variables, graph after pruning and the accuracy of the code)
