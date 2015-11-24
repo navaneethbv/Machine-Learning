@@ -1,6 +1,3 @@
-This Assignment was done by 
-Navaneeth Venugopala Rao
-NET ID - nbv140130
 
 1. To run part 1, compile the KMeans.java file using the below command
 javac KMeans.java
