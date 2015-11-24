@@ -1,7 +1,3 @@
-This project has been prepared by -
-Navaneeth Venugopala Rao
-Net ID - nbv140130
-
 1. To execute the code in Linux, following the following steps.
 a. Copy the Java files from the Code folder into your workspace.
 b. Run this command from your workspace --> $ javac Solution.java
