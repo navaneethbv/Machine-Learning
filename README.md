@@ -6,3 +6,4 @@ Assignments
 3. Implementation of 9 Machine Learning Classifiers in R.
 4. Implementation of Machine Learning Classifiers like Naive Bayesian, Support Vector Machines and k Nearest Neighbor.
 5. Analysis using Rpart package
+6. Clustering using k-Means
