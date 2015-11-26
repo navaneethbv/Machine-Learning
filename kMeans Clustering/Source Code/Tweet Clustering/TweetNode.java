@@ -8,7 +8,7 @@ public class TweetNode {
 	String from_user_id;
 	String geo;
 	String iso_language_code;
-	String from_user_id_str;
+	String from_user_id_str; 
 	String created_at;
 	String source;
 	String id_str;
