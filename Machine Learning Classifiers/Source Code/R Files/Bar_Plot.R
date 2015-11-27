@@ -11,3 +11,4 @@ barplot(diabetes_data$V5)
 barplot(diabetes_data$V6)  
 barplot(diabetes_data$V7) 
 barplot(diabetes_data$V8)
+ 
