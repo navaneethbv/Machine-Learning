@@ -5,7 +5,7 @@ Wager =================>100
 Dice 1 = 5   : Dice 2 = 5
 dice Value = 10
 Shoot point set to 10
-Shoot Dice 1 = 2   : Shoot Dice 2 = 2
+Shoot Dice 1 = 2   : Shoot Dice 2 = 2 
 Shoot dice Value = 4
 Shoot Dice 1 = 3   : Shoot Dice 2 = 3
 Shoot dice Value = 6
