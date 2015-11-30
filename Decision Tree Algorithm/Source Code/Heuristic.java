@@ -10,7 +10,7 @@ public class Heuristic {
 	 * Computes the variance impurity of a data set
 	 *
 	 * @param data
-	 *            Data for which impurity is to be computed
+	 *            Data for which impurity is to be computed 
 	 * @return Variance impurity of the class distribution
 	 */
 	public double computeVarianceImpurity(ArrayList<ArrayList<Attribute>> data) {
