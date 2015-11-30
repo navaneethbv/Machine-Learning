@@ -12,7 +12,7 @@ public class Heuristic {
 	 * @param data
 	 *            Data for which impurity is to be computed 
 	 * @return Variance impurity of the class distribution
-	 */
+	 */ 
 	public double computeVarianceImpurity(ArrayList<ArrayList<Attribute>> data) {
 		// Assuming there are two values 0,1 possible, count how many values are
 		// in 0 and 1
