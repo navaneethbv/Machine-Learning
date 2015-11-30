@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Heuristic { 
 	/**
-	 * Computes the variance impurity of a data set 
+	 * Computes the variance impurity of a data set
 	 *
 	 * @param data
 	 *            Data for which impurity is to be computed
