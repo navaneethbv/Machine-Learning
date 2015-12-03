@@ -3,7 +3,7 @@
 2. Histograms and Bar Plots are generated in the form of PDF's.
 3. Commands are as follows - 
 
-Rscript Histogram.R pima-indians-diabetes.data.csv
+Rscript Histogram.R pima-indians-diabetes.data.csv 
 Rscript Bar_Plot.R pima-indians-diabetes.data.csv
 Rscript Highest_Correlation.R pima-indians-diabetes.data.csv
 Rscript Correlation.R pima-indians-diabetes.data.csv
