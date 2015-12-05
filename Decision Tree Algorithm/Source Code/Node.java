@@ -6,7 +6,7 @@ import java.util.ArrayList;
  *
  */ 
 public class Node implements Cloneable {
-	/**
+	/** 
 	 * Children of this node  
 	 */ 
 	public Node[] children;
