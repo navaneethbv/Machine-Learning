@@ -15,7 +15,7 @@ b) Accuracy obtained for 90% training data and 10% test data is 73.61111
 
 Files included are 
 assignment3_1.R - Kyphosis - 80% training, 20% test
-assignment3_2.R - Kyphosis - 90% training, 10% test
+assignment3_2.R - Kyphosis - 90% training, 10% test 
 assignment3_3.R - Solder  - 80% training, 20% test
 assignment3_4.R - Solder  - 90% training, 10% test
 
