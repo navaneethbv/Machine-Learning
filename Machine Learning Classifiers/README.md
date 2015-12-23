@@ -8,7 +8,7 @@ Rscript Bar_Plot.R pima-indians-diabetes.data.csv
 Rscript Highest_Correlation.R pima-indians-diabetes.data.csv
 Rscript Correlation.R pima-indians-diabetes.data.csv
 Rscript naivebayes.R
-Rscript knn.R
+Rscript knn.R 
 Rscript SVM.R
 
 Note: I have used the URL directly for nivebayes, knn and SVM. Histogram, Bar_Plot, Correlation and Highest_Correlation needs the csv file in the arguments.
