@@ -3,7 +3,7 @@ data("solder")
 str(solder) 
 floor_val<-floor(0.8*nrow(solder)) 
 train<-sample(nrow(solder),size=floor_val)
-trainingData<-solder[train,]
+trainingData<-solder[train,] 
 testData<-solder[-train,]
 solder_fit<-rpart(Solder~.,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
 par(mar = rep(0.1, 4)) 
