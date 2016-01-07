@@ -17,7 +17,7 @@ public class KMeans {
     ArrayList<LinkedList<Point>>centroids;
     ArrayList<LinkedList<Point>>tempCentroids;
 	
-	Point[] points;
+	Point[] points; 
 	
 	File file;
 	File opFile;
