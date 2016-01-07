@@ -1,5 +1,5 @@
 public class Point
-{
+{ 
 	int id;
 	int clusterID;
 	float x;
