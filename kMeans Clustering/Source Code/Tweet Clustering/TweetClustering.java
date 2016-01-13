@@ -12,7 +12,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Set;
 
-public class TweetClustering {	
+public class TweetClustering 
+{	
 	int K;
 	float distanceMatrix[][];
 	File seedsFile;
