@@ -1,5 +1,5 @@
 -----Let's Play the GAME of CRAPS-----
-Starting Balance is  $1000
+Starting Balance is  $1000 
 Rolling dice ...........
 Wager =================>100
 Dice 1 = 4   : Dice 2 = 6
