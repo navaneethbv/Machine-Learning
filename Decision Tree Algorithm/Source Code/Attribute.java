@@ -1,5 +1,5 @@
 /**
- * Class to represent an attribute
+ * Class to represent an attribute 
  *
  * @author Navaneeth.Rao
  *
