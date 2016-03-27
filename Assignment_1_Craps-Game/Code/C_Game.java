@@ -6,7 +6,7 @@ public class C_Game
 	{
 		System.out.println("-----Let's Play the GAME of CRAPS-----");
 		System.out.println("Starting Balance is $1000");
-		GameOfCrap goc = new GameOfCrap();
+		GameOfCrap goc = new GameOfCrap(); 
 		goc.startGame();
 	}
 } 
