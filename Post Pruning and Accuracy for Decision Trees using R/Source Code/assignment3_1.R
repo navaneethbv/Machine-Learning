@@ -4,7 +4,7 @@ str(kyphosis)
 floor_val<-floor(0.8*nrow(kyphosis))
 train<-sample(nrow(kyphosis),size=floor_val)
 trainingData<-kyphosis[train,]
-testData<-kyphosis[-train,] 
+testData<-kyphosis[-train,]
 kyphosis_fit<-rpart(Kyphosis~Age+Number+Start,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
 par(mar = rep(0.1, 4))
 plot(kyphosis_fit)
