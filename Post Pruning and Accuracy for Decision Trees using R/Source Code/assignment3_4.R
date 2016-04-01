@@ -15,7 +15,7 @@ CPVal
 pruned_fit<-prune(solder_fit,cp=as.numeric(CPVal))
 out<-predict(pruned_fit,newdata=testData,type="vector")
 tab <- table(out, testData$Solder)
-tab
+tab 
 accuracy<-sum(diag(tab))/sum(tab)
 accuracyPercentage<-accuracy*100
 accuracyPercentage
