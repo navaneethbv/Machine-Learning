@@ -2,7 +2,7 @@
  * Class to represent an attribute 
  * 
  * @author Navaneeth.Rao
- *
+ * 
  */ 
 public class Attribute {
 	/**
