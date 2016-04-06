@@ -8,7 +8,7 @@ import java.util.Random;
  */ 
 public class DecisionTree {
 	/** The tree's root node. */
-	public Node root; 
+	public Node root;
 	/**
 	 * Variable to number the nodes
 	 */
