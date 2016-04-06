@@ -14,7 +14,7 @@ public class DecisionTree {
 	 */
 	private int index;
 	/**
-	 * Traverses along a decision tree till a leaf node is reached to check if 
+	 * Traverses along a decision tree till a leaf node is reached to check if
 	 * the value of class attribute in data set matches with decision tree
 	 *
 	 * @param data
