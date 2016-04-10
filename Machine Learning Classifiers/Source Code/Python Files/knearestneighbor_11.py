@@ -6,7 +6,7 @@ import math
 import operator 
 from idlelib.IOBinding import encoding
 
-def loadDataset(filename, split, trainingSet=[] , testSet=[]):
+def loadDataset(filename, split, trainingSet=[] , testSet=[]): 
 	with open(filename, 'r') as csvfile:
 	    lines = csv.reader(csvfile)
 	    dataset = list(lines)
