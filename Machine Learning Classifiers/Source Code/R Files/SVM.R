@@ -1,7 +1,7 @@
 library(e1071)
 dataset1 = read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data")
 str(dataset1)
-
+ 
 i = 1
 sum = 0
 count = 0
