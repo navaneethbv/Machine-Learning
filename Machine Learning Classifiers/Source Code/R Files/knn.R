@@ -1,6 +1,6 @@
 dataset <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data")
 library("class")
-
+ 
 n <- nrow(dataset)
 
 kVal=c(3,5,7,9,11)
