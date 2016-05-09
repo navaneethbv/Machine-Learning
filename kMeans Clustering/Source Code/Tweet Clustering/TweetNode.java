@@ -16,7 +16,8 @@ public class TweetNode {
 	String profile_image_url_https;
 	String[] metadata;
 	
-	public TweetNode(){
+	public TweetNode()
+	{
 		dist = Float.MAX_VALUE;
 	}
 }
