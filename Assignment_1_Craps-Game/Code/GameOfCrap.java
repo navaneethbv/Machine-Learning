@@ -94,9 +94,7 @@ public class GameOfCrap {
 						}
 					}
 				}
-
-
-
+				
 				if(strategy == 3) {
 					if(!win) {
 						betAmount = 100;
