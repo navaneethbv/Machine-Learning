@@ -1,6 +1,6 @@
 args <- commandArgs(TRUE) 
 dataURL<-as.character(args[1])
-header<-as.logical(args[2]) 
+header<-as.logical(args[2])  
 d<-read.csv(dataURL,header = header)
 d[d=="?"] <- 0
 classvariable <- as.integer(args[3])
