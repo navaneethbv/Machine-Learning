@@ -54,7 +54,7 @@ public class KMeans {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}	
+	}
 	
 	public void readFile()
 	{		
