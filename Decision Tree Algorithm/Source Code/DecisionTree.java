@@ -12,7 +12,7 @@ public class DecisionTree {
 	/**
 	 * Variable to number the nodes
 	 */
-	private int index;
+	private int index; 
 	/**
 	 * Traverses along a decision tree till a leaf node is reached to check if
 	 * the value of class attribute in data set matches with decision tree
