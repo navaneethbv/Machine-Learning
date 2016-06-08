@@ -1,6 +1,6 @@
 args <- commandArgs(TRUE) 
 fileName <- args[1]
-diabetes_data<-read.csv(fileName,header = FALSE)
+diabetes_data<-read.csv(fileName,header = FALSE) 
 paste("The correlation between attribute1 and the class variable is: ",cor(diabetes_data$V1,diabetes_data$V9),sep="")
 paste("The correlation between attribute2 and the class variable is: ",cor(diabetes_data$V2,diabetes_data$V9),sep="")
 paste("The correlation between attribute3 and the class variable is: ",cor(diabetes_data$V3,diabetes_data$V9),sep="")
