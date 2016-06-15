@@ -2,7 +2,7 @@ library(rpart)
 data("kyphosis") 
 str(kyphosis)
 floor_val<-floor(0.9*nrow(kyphosis)) 
-train<-sample(nrow(kyphosis),size=floor_val)
+train<-sample(nrow(kyphosis),size=floor_val) 
 trainingData<-kyphosis[train,]
 testData<-kyphosis[-train,] 
 kyphosis_fit<-rpart(Kyphosis~Age+Number+Start,parms=list(split='information'), minsplit=2, minbucket=1,data=trainingData,method='class')
