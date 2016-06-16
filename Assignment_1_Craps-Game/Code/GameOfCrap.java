@@ -10,7 +10,7 @@ public class GameOfCrap {
 	//Start the game
 	void startGame()
 	{
-		int strategy = 1;
+		int strategy = 1; 
 		while(strategy < 4) 
 		{
 			int startBalance = 1000;
