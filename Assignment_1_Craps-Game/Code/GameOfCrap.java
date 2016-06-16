@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class GameOfCrap {
 
-	public Scanner inputBet; 
+	public Scanner inputBet;
 	public Random r;  
 	//Start the game
 	void startGame() 
