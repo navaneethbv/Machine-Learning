@@ -8,7 +8,7 @@ public class GameOfCrap {
 	public Scanner inputBet;
 	public Random r; 
 	//Start the game
-	void startGame() 
+	void startGame()
 	{
 		int strategy = 1;
 		while(strategy < 4) 
