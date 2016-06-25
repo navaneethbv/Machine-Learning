@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random; 
 /**
- * Class to implement a custom decision tree 
+ * Class to implement a custom decision tree  
  *  
  * @author Navaneeth.Rao
  * 
