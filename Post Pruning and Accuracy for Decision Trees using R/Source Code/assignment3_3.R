@@ -1,4 +1,4 @@
-library(rpart)
+library(rpart) 
 data("solder") 
 str(solder) 
 floor_val<-floor(0.8*nrow(solder)) 
