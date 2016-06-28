@@ -1,6 +1,6 @@
 args <- commandArgs(TRUE)
 fileName <- args[1]
-diabetes_data<-read.csv(fileName,header = FALSE) 
+diabetes_data<-read.csv(fileName,header = FALSE)  
 attach(diabetes_data) 
 par(mfrow=c(3,3))  
 barplot(diabetes_data$V1)
