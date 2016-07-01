@@ -3,7 +3,7 @@ public class TweetNode {
 	float dist;
 	String id;
 	String text;
-	String profile_image_url;
+	String profile_image_url; 
 	String from_user;
 	String from_user_id; 
 	String geo;
