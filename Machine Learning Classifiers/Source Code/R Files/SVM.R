@@ -3,7 +3,7 @@ dataset1 = read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/p
 str(dataset1)
  
 i = 1
-sum = 0
+sum = 0 
 count = 0
 kernels = c('','linear','polynomial','radial','sigmoid') 
 flag =0
