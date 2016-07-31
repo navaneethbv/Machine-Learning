@@ -1,5 +1,5 @@
 library(rpart) 
-data("solder") 
+data("solder")
 str(solder) 
 floor_val<-floor(0.8*nrow(solder)) 
 train<-sample(nrow(solder),size=floor_val)
