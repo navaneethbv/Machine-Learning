@@ -2,7 +2,7 @@
 Created on Oct 15, 2015 
 
 @author: Navaneeth 
-''' 
+'''  
  
 # Example of Naive Bayes implemented from Scratch in Python
 import csv
