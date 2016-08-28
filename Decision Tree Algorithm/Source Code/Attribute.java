@@ -1,6 +1,6 @@
 /**
  * Class to represent an attribute 
- *  
+ *   
  * @author Navaneeth.Rao
  * 
  */ 
