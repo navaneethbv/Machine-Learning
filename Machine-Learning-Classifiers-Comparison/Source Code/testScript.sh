@@ -2,7 +2,7 @@ declare -a urls=('http://www.utdallas.edu/~axn112530/cs6375/creditset.csv' 'http
 declare -a headers=('T' 'T' 'F' 'F' 'F');
 declare -a classPosition=(6 1 2 2 35);  
 
-echo "\nEnter dataset between 1-5 or enter 0 to run all at once"
+echo "\nEnter dataset between 1-5 or enter 0 to run all at once" 
 read choice
 
 let choice=$choice-1
