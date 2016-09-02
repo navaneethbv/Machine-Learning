@@ -3,7 +3,7 @@ import java.util.ArrayList;
  * Class to represent a node in the decision tree   
  *  
  * @author Navaneeth.Rao   
- *
+ * 
  */   
 public class Node implements Cloneable { 
 	/** 
