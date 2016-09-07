@@ -1,7 +1,7 @@
 # Example of kNN implemented from Scratch in Python
 
 import csv
-import random
+import random 
 import math
 import operator
 from idlelib.IOBinding import encoding
