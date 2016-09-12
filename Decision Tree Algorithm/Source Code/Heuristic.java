@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 /**   
  * Class which implements calculation of heuristics  
- *
+ * 
  * @author Navaneeth.Rao  
  *   
  */    
