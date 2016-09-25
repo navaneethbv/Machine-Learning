@@ -1,5 +1,5 @@
 public class TweetNode {
-	int clusterID;
+	int clusterID; 
 	float dist;
 	String id;
 	String text;
