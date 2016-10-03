@@ -19,3 +19,4 @@ tab
 accuracy<-sum(diag(tab))/sum(tab)
 accuracyPercentage<-accuracy*100
 accuracyPercentage
+ 
