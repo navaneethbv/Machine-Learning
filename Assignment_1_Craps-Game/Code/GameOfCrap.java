@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GameOfCrap {
-
+ 
 	public Scanner inputBet;
 	public Random r; 
 	//Start the game 
