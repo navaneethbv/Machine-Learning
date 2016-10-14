@@ -5,7 +5,7 @@ public class TweetNode {
 	String text;
 	String profile_image_url; 
 	String from_user;
-	String from_user_id; 
+	String from_user_id;  
 	String geo;
 	String iso_language_code;
 	String from_user_id_str; 
