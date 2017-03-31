@@ -1,5 +1,5 @@
 args <- commandArgs(TRUE) 
-dataURL<-as.character(args[1])
+dataURL<-as.character(args[1]) 
 header<-as.logical(args[2])
 d<-read.csv(dataURL,header = header)
 int<-as.integer(args[3])
